@@ -1,0 +1,43 @@
+.home {
+  .section {
+      margin-bottom: 100px;
+
+    .title {
+      color: $primary;
+      margin: 80px 0 20px 0;
+      font-family: $source;
+      font-size: 20px;
+      font-weight: bold;
+      vertical-align: middle;
+
+      .label-emoji {
+        font-size: 28px;
+        margin-right: 5px;
+      }
+
+    }
+
+    .content {
+      padding: 10px;
+      &.introduce a {
+        color: $primary;
+      }
+    }
+
+  }
+}
+
+@keyframes moving {
+  from {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.loading-animation {
+  animation-name: moving;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+}

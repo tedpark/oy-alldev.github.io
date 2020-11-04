@@ -1,0 +1,20 @@
+<div class='post-footer'>
+
+  {% for member in site.data.members %}
+  {% if member.id == page.writer %}
+  <div class='thumbnail'>
+    <img class='profile' src='{{ member.thumbnail }}'/>
+    <div class='emoji'>
+      <span>{{member.emoji}}</span>
+    </div>
+  </div>
+  <div class='profile'>
+    <p class='name'>{{member.name}}</p>
+  </div>
+  <div class='description'>
+    {{member.comment}}
+  </div>
+  {% endif %}
+  {% endfor %}
+
+</div>
