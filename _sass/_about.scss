@@ -1,0 +1,86 @@
+.about {
+  .title {
+    color: $primary;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px 0 10px 0;
+  }
+
+  .content {
+    padding: 0 10px;
+
+    .subtitle {
+      font-weight: 600;
+    }
+
+    ul.culture, ul.environment {
+      padding: 10px 30px;
+      list-style-type : disc;
+
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .member_card {
+    border-bottom: 1px solid $grey-2;
+    display: flex;
+    padding: 30px 0;
+
+    .thumbnail {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      float: left;
+      border-radius: 50%;
+      margin: auto 30px auto 0;
+      background-color: $grey-3;
+      display: table;
+      //border: 1px solid $grey-2;
+
+      .profile, .emoji {
+        position: absolute;
+      }
+
+      .profile {
+        margin: 0;
+        float: left;
+        border-radius: 50%;
+      }
+
+      .emoji {
+        background-color: white;
+        display: inline;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        border-radius: 50%;
+
+        span {
+          margin: auto;
+        }
+      }
+
+      @media (min-width: $break-medium) {
+        width: 80px;
+        height: 80px;
+      }
+
+      @media (min-width: $break-small) {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .info {
+      margin: auto 0;
+    }
+
+    .name {
+      font-weight: 600;
+    }
+  }
+}
