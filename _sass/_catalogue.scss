@@ -4,7 +4,6 @@
     list-style: none;
 
     &:last-child {
-      margin-bottom: 72px;
       border: none;
     }
   }
@@ -45,6 +44,14 @@
     font-family: $source;
     font-weight: 600;
     margin-bottom: 10px;
+
+    @media (max-width: $break-medium) {
+      font-size: 16px;
+    }
+
+    @media (max-width: $break-small) {
+      font-size: 14px;
+    }
   }
 
   &-info {
@@ -79,8 +86,12 @@
       letter-spacing: -0.009em;
       position: relative;
 
-      @media (max-width: $break-small) {
+      @media (max-width: $break-medium) {
         font-size: 22px;
+      }
+
+      @media (max-width: $break-small) {
+        font-size: 20px;
       }
     }
 
@@ -94,8 +105,12 @@
       line-height: 1.75;
       padding-bottom: 4px;
 
-      @media (max-width: $break-small) {
+      @media (max-width: $break-medium) {
         font-size: 16px;
+      }
+
+      @media (max-width: $break-small) {
+        font-size: 14px;
       }
     }
 
@@ -105,14 +120,22 @@
       line-height: 1.75;
       padding-bottom: 24px;
 
-      @media (max-width: $break-small) {
+      @media (max-width: $break-medium) {
         font-size: 16px;
+      }
+
+      @media (max-width: $break-small) {
+        font-size: 14px;
       }
     }
 
     p.catalogue-body {
       font-size: 16px;
       color: $grey-1;
+
+      @media (max-width: $break-small) {
+        font-size: 14px;
+      }
     }
   }
 

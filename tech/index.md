@@ -1,7 +1,6 @@
 ---
 layout: main
-title: Blog
-description: 올리브영에서 사용중인 기술들
+title: 테크노트
 main: true
 ---
 
