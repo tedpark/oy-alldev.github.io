@@ -2,7 +2,6 @@
 layout: main
 main: true
 title: 개발팀 소개
-description: 올리브영 개발팀 소개
 ---
 
 <div class="loading-animation">
@@ -45,7 +44,9 @@ description: 올리브영 개발팀 소개
                 {% for member in site.data.members %}
                     <li class="member_card">
                         <div class="thumbnail">
-                            <img class="profile" src="{{ member.thumbnail }}" />
+                            {{% if member.thumbnail != nil %}}
+                            <img class="profile" src="/meta/members/{{ member.thumbnail }}" />
+                            {{% endif %}}
                             <div class="emoji">
                                 <span>{{member.emoji}}</span>
                             </div>

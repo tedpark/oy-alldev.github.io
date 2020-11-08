@@ -1,6 +1,20 @@
 .home {
+  overflow: hidden;
+
   .section {
+    margin-bottom: 60px;
+
+    @media (min-width: $break-small) {
+      margin-bottom: 80px;
+    }
+
+    @media (min-width: $break-medium) {
       margin-bottom: 100px;
+    }
+
+    @media (min-width: $break-large) {
+      margin-bottom: 120px;
+    }
 
     .title {
       color: $primary;
@@ -19,8 +33,24 @@
 
     .content {
       padding: 10px;
-      &.introduce a {
-        color: $primary;
+      margin-bottom: 50px;
+
+      &.introduce {
+        a {
+          color: $primary;
+        }
+      }
+
+      table tr td {
+        @media (max-width: $break-medium) {
+          display: block;
+          padding: 20px 10px;
+          border-bottom: 1px solid $grey-2;
+        }
+
+        &:last-child {
+          border: none;
+        }
       }
     }
 
