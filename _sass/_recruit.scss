@@ -1,0 +1,134 @@
+.recruit {
+
+  .title {
+    color: $primary;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 25px 0px 25px 0px;
+  }
+
+  .content {
+    padding : 0 10px
+  }
+
+  .want {
+    display: flex;
+
+    .container {
+      position: relative;
+      list-style:none;
+    }
+
+
+
+  }
+
+  .process {
+     .list {
+       position: relative;
+       height: 350px;
+       list-style: none;
+       display: inline-block;
+     }
+
+    li {
+      float: left;
+    }
+
+     .resume {
+       width: 140px;
+       height: 140px;
+       background-color: $primary;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+
+       .text-wrapper {
+         margin: auto 0;
+       }
+    }
+
+    .interview1 {
+      width: 250px;
+      height: 250px;
+      background-color: $primary;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+
+      .text-wrapper {
+        margin: auto 0;
+      }
+
+
+      &:after {
+        position: absolute;
+        height: 200px;
+        width: 1px;
+        background-color: black;
+        top : 160px;
+
+        content: ' ';
+
+      }
+
+    }
+
+
+    .interview2 {
+      width: 200px;
+      height: 200px;
+      background-color: $primary;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+
+      .text-wrapper {
+        margin: auto 0;
+      }
+    }
+
+    .final {
+      width: 100px;
+      height: 100px;
+      background-color: $primary;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+
+      .text-wrapper {
+        margin: auto 0;
+      }
+    }
+
+
+  }
+
+  .welfare {
+    display: flex;
+    border-bottom: 1px solid $grey-2;
+    margin: 20px 20px 0px 0px;
+
+    .index {
+      position: relative;
+      width : 150px;
+      float: left;
+      font-size: 20px;
+      margin: 0px 50px 0px 0px;
+      display: table;
+    }
+
+    .section {
+      margin: auto 0;
+    }
+
+    .sub_title {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .sub_description {
+      margin-bottom: 10px;
+    }
+  }
+
+}
