@@ -2,14 +2,17 @@
   name: 개발요정
   emoji: 🧚‍♀️
   thumbnail: 834588.png
-  comment: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  comment: 모바일 앱 개발 및 상큼발랄함을 담당하고 있는 개발요정입니다.
 
-- id: 834589
-  name: 개발자1
-  emoji: 😈
-  comment: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+- id: 834631
+  name: 주리랑
+  emoji: 🐼
+  thumbnail: 834631.jpg
+  comment: 내 이름은 이주리 거꾸로 해도 이주리!
 
-- id: 834590
-  name: 개발자2
-  emoji: 🐥
-  comment: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+- id: 834635
+  name: 달콤케이크
+  emoji: 🍰
+  thumbnail: 834635.jpeg
+  comment: 저는 온라인몰 Backend 개발자 입니다. 즐거운 개발 문화를 만들기 위해 노력합니다.
+
