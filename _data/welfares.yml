@@ -4,16 +4,19 @@
     - title : 근무제도
       description : 주 5일 근무 및 생산성을 위해 업무 시간을 탄력적으로 조정하는 탄력근무를 사용하고 있습니다.
     - title: 휴가제도
-      description: 연차 자유롭게 사용 가능~ 근속년수에 따라 휴가 및 휴가비 지원
+      description: 근로기준법에 따라 제공된 연차휴가를 자유롭게 사용할 수 있습니다.<br>근속 연도에 따라 휴가 및 휴가비를 지원합니다.
+
+
 
 
 - id: 2
   title: 안목있는<br/>All-Dev
   contents:
     - title: 교육
-      description: 사내 스터디 가능~ 도서 구입비도 가능!
-    - title: 컴퓨터2
-      description: 우리는~ 맥북도 주고 데스크탑도 주고 그램도 주는데요 더욱 더 놀라운것은 선택 가능하답니다~
+      description: 신규 입사자들을 위한 S-OJT 및 올디브 구성원을 위한 사내 스터디, 도서 구입비용을 제공합니다.
+    - title: 장비 및 운영비 지원
+      description: 본인의 업무 환경에 맞는 노트북과 모니터를 지급합니다.
+      sub_description: 컴퓨터 - 맥북 프로 i9 / LG 2020그램 i7 / 데스크탑<br>모니터 - 	한성 32인치 모니터 / DELL 27인치 모니터 선택 가능
 
 - id: 3
   title: 생기있는<br/>All-Dev
@@ -21,4 +24,4 @@
     - title: 건강검진/의료지원
       description: 전 직원을 대상으로 의료비 지원과 종합검진 및 일반검진을 진행하고 있습니다.
     - title: 학자금 지원
-      description: 재직중인 직원 대상으로 ...
+      description: 재직중 임직원을 대상으로인 지원 한도내 납부학자금 실비를 지원합니다.
