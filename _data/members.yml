@@ -4,12 +4,15 @@
   thumbnail: 834588.png
   comment: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
+- id: 834631
+  name: 주리랑
+  emoji: 🐼
+  thumbnail: 834631.jpg
+  comment: 내 이름은 이주리 거꾸로 해도 이주리!
+
 - id: 834635
   name: 달콤케이크
   emoji: 🍰
-  comment: 일상은 달콤한 케이크처럼~ 
+  thumbnail: 834635.jpeg
+  comment: 일상은 달콤한 케이크처럼~
 
-- id: 834590
-  name: 개발자2
-  emoji: 🐥
-  comment: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
