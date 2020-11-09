@@ -1,8 +1,7 @@
 ---
 layout: main
 main: true
-title: 소소한 이야기
-description: 개발팀의 소소한 소로그
+title: 소소한 일상
 ---
 
 <ul class="catalogue">

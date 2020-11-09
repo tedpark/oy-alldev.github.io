@@ -1,20 +1,21 @@
 <div class='post-footer'>
 
   {% for member in site.data.members %}
-  {% if member.id == page.writer %}
-  <div class='thumbnail'>
-    <img class='profile' src='{{ member.thumbnail }}'/>
-    <div class='emoji'>
-      <span>{{member.emoji}}</span>
+    {% if member.id == page.writer %}
+    <div class="member_card">
+      <div class="thumbnail-container">
+        <div class='thumbnail'>
+          <img class='profile' src='/meta/members/{{ member.thumbnail }}'/>
+          <div class='emoji'>
+            <span>{{member.emoji}}</span>
+          </div>
+        </div>
+        <div class='name'>{{member.name}}</div>
+      </div>
+
+      <div class='description'>{{member.comment}}</div>
     </div>
-  </div>
-  <div class='profile'>
-    <p class='name'>{{member.name}}</p>
-  </div>
-  <div class='description'>
-    {{member.comment}}
-  </div>
-  {% endif %}
+    {% endif %}
   {% endfor %}
 
 </div>
