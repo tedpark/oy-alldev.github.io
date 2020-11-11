@@ -1,0 +1,84 @@
+
+.recruit-banner {
+  left: 0;
+  right: 0;
+  height: 400px;
+
+  @media (max-width: $break-medium) {
+    height: 300px;
+  }
+
+  @media (max-width: $break-small) {
+    bottom: 0;
+    height: 200px;
+  }
+
+  .content {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    img {
+      position: absolute;
+      left: -1000%;
+      right: -1000%;
+      top: -1000%;
+      bottom: -1000%;
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @media (max-width: $break-medium) {
+        background: rgba(255,255,255,0.3);
+      }
+      @media (max-width: $break-small) {
+        background: rgba(255,255,255,0.5);
+      }
+    }
+
+    .text-wrapper {
+      position: absolute;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 55%;
+      width: fit-content;
+      padding: 0 20px;
+
+      .title {
+        font-size: 35px;
+        font-weight: bold;
+        @media (max-width: $break-medium) {
+          font-size: 27px;
+        }
+        @media (max-width: $break-small) {
+          font-size: 22px;
+        }
+      }
+
+      .button {
+        background-color: $primary;
+        color: white;
+        margin: 40px auto 0 auto;
+        width: fit-content;
+        padding: 10px 20px;
+        @media (max-width: $break-medium) {
+          font-size: 16px;
+          margin-top: 30px;
+        }
+        @media (max-width: $break-small) {
+          font-size: 14px;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
