@@ -52,62 +52,7 @@
           border: none;
         }
       }
-
-
-      .recruit {
-        .container {
-          position: relative;
-          text-align: center;
-
-        }
-        .background {
-          width: 100%;
-          height: 100%;
-          object-fit: contain
-        }
-
-
-        .centered {
-          color : white;
-          position: absolute;
-          top: 45%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          text-align: right;
-        }
-
-
-        .recruit_text {
-          position: absolute;
-          top: 53%;
-          font-size: 30px;
-          width: 100%;
-          text-align: center;
-          font-weight: 700;
-          color: black;
-          -webkit-text-stroke: 1px white;
-        }
-
-        .button {
-          background-color:  $primary;
-          border: none;
-          color: white;
-          padding: 15px 30px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 18px;
-          cursor: pointer;
-          position: absolute;
-          top: 70%;
-          left: 49%;
-          transform: translate(-50%, -50%);
-        }
-
-      }
-
     }
-
   }
 }
 

@@ -19,6 +19,10 @@
   {{ content }}
 </main>
 
+{% if page.home == true %}
+{% include recruit-banner.html %}
+{% endif %}
+
 {% include footer.html %}
 
 </body>
