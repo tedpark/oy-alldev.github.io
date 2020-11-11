@@ -41,7 +41,8 @@ title: 개발팀 소개
         <div class="title">개발자 소개</div>
         <div class="content">
             <ul>
-                {% for member in site.data.members %}
+                {% assign sorted = site.data.members | sort: 'id' | if 'id' == '834559' first %}
+                {% for member in sorted %}
                     <li class="member_card">
                         <div class="thumbnail">
                             {{% if member.thumbnail != nil %}}
