@@ -6,6 +6,9 @@
   <title>{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}</title>
   <meta name="description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site.title }}{% endif %}">
 
+  <!-- Naver Search Engine Tag -->
+  <meta name="naver-site-verification" content="55cc2fd19a3823b9a891312ff941dff197dc77be" />
+  
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}">
   <meta itemprop="description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site:title }}{% endif %}">
