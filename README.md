@@ -33,6 +33,17 @@
 만약 잘 되지 않는다면 공식 사이트([Windows](https://jekyllrb.com/docs/installation/windows/), [macOS](https://jekyllrb.com/docs/installation/macos/))에서 차근차근 따라하면 됩니다.
 (설명하기 귀찮아서가 아니라 공식 사이트에 설명이 잘 되어있어서 그렇습니다. 진짜로.)
 
+#### Windows Jekll 설치 
+Jekyll on Windows 가이드 보고 기본적인 설치만 하는식으로 했는데, 가볍게 설치하거나 더 좋은 방법이 있다면 수정 부탁드립니다.
+1. [루비 공식 다운로드](https://rubyinstaller.org/downloads/)에서 **WITH DEVKIT** 2.4 버전 이상으로 다운로드 & 실행합니다.
+2. Agree - 다음 - 다음 - 설치 - 완료 후, Run 'ridk install 어쩌구' 체크박스 체크하여 Finish
+3. 자동으로 실행된 cmd 창에서 `1` 입력하고 `ENTER` → base installer 설치 완료 후, `ENTER` 입력하면 커맨드창 자동으로 꺼집니다.
+4. 커맨드창 새로 실행하여 `gem install jekyll bundler` 입력하여 `jekyll`과 `bundler`를 설치합니다.
+5. 커맨드 창에서 `jekyll -v` 입력시 아래와 같은 텍스트가 출력되면 정상적으로 설치 됐습니다!
+```shell
+jekyll 4.1.1 // jekyll 뒤의 버전은 다를 수 있습니다.
+```
+
 ### 로컬에 블로그 실행
 터미널에서 프로젝트 경로로 이동한 뒤 하기 명령어들을 실행하여 로컬에 블로그를 띄워줍니다.
 ```shell
