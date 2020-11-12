@@ -19,7 +19,7 @@ title: 채용정보
             </div>
         </div>
         <div class="section process">
-            <div class="title">채용 프로세스</div>
+            <div class="title">상시 채용 프로세스</div>
             <div class="content">
                 <div class="list">
                     {% for process in site.data.recruit-process %}
