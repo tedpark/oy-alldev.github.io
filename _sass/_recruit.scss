@@ -17,6 +17,24 @@
       padding: 0 10px
     }
   }
+  
+  .contact .content {
+    display: flex;
+    
+    ul {
+      padding: 0 25px;
+
+      @media (max-width: $break-small) {
+        padding: 0;
+      }
+
+      li {
+        font-size: 17px;
+        list-style-type: '💻';
+        padding: 2px 10px
+      }
+    }
+  }
 
   .want .content {
     display: flex;
