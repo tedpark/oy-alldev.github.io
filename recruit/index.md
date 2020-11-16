@@ -6,6 +6,14 @@ title: 채용정보
 
 <div class="loading-animation">
     <div class="recruit">
+        <div class="section contact">
+            <div class="title">올디브는 언제나 채용 중!</div>
+            <div class="content">
+                <ul>
+                    <li>채용문의: vito.kim@cj.net</li>
+                </ul>
+            </div>
+        </div>
         <div class="section want">
             <div class="title">올디브는 이런 분을 모시고 싶어요.</div>
              <div class="content">
