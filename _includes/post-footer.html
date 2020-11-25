@@ -1,21 +1,16 @@
+{% assign writer = site.data.members | find: 'id', page.writer %}
 <div class='post-footer'>
-
-  {% for member in site.data.members %}
-    {% if member.id == page.writer %}
-    <div class="member_card">
-      <div class="thumbnail-container">
-        <div class='thumbnail'>
-          <img class='profile' src='/meta/members/{{ member.thumbnail }}'/>
-          <div class='emoji'>
-            <span>{{member.emoji}}</span>
-          </div>
+  <div class="member_card">
+    <div class="thumbnail-container">
+      <div class='thumbnail'>
+        {% assign thumbnail = site.static_files | find: 'basename', writer.id %}
+        <img class='profile' src='{{thumbnail.path}}'/>
+        <div class='emoji'>
+          <span>{{writer.emoji}}</span>
         </div>
-        <div class='name'>{{member.name}}</div>
       </div>
-
-      <div class='description'>{{member.comment}}</div>
+      <div class='name'>{{writer.name}}</div>
     </div>
-    {% endif %}
-  {% endfor %}
-
+    <div class='description'>{{writer.comment}}</div>
+  </div>
 </div>
