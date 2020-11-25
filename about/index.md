@@ -41,13 +41,13 @@ title: 개발팀 소개
         <div class="title">개발자 소개</div>
         <div class="content">
             <ul>
-                {% assign sorted = site.data.members | sort: 'id' | if 'id' == '834559' first %}
-                {% for member in sorted %}
+                {% assign members = site.data.members | sort: 'id' | where_exp: 'member', 'member.id != 834559' %}
+                {% assign team = site.data.members | find: 'id', '834559' | concat: members %}
+                {% for member in team %}
                     <li class="member_card">
                         <div class="thumbnail">
-                            {{% if member.thumbnail != nil %}}
-                            <img class="profile" src="/meta/members/{{ member.thumbnail }}" />
-                            {{% endif %}}
+                            {% assign thumbnail = site.static_files | find: 'basename', member.id %}
+                            <img class="profile" src="{{ thumbnail.path }}" />
                             <div class="emoji">
                                 <span>{{member.emoji}}</span>
                             </div>
