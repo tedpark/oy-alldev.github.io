@@ -22,9 +22,9 @@ title: 올리브영 기술블로그
 author: alldev
 email: oyalldev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  CJ올리브영 서비스개발팀 '올디브' 기술 블로그.
+  CJ올리브영 서비스개발팀 '올디브' 기술 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://oy-alldev.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://tech.oliveyoung.co.kr" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
