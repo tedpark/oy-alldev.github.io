@@ -16,11 +16,9 @@
         <div class="content">
           <table class="catalogue">
             <tr>
-              {% assign sorted = site.pages | sort: 'date' | reverse %}
+              {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'tech' %}
               {% for page in sorted limit:3 %}
-              {% if page.type == 'tech' or page.type == 'life' %}
               {% include post-card.html %}
-              {% endif %}
               {% endfor %}
             </tr>
           </table>
