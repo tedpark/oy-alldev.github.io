@@ -1,9 +1,9 @@
-{% assign writer = site.data.members | find: 'id', page.writer %}
+1{% assign writer = site.data.members | where: 'id', page.writer | first %}
 <div class='post-footer'>
   <div class="member_card">
     <div class="thumbnail-container">
       <div class='thumbnail'>
-        {% assign thumbnail = site.static_files | find: 'basename', writer.id %}
+        {% assign thumbnail = site.static_files | where: 'basename', writer.id | first %}
         <img class='profile' src='{{thumbnail.path}}'/>
         <div class='emoji'>
           <span>{{writer.emoji}}</span>

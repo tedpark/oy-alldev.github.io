@@ -1,0 +1,60 @@
+
+.life {
+  .card {
+    padding: 35px 0;
+    border-bottom: 1px solid $grey-2;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .member_card {
+    padding: 0;
+    border-bottom: none;
+    display: block;
+
+    .thumbnail {
+      width: 47px;
+      height: 47px;
+      margin-top: 0;
+
+      .emoji {
+        width: 15px;
+        height: 15px;
+
+        span {
+          font-size: 9px;
+
+          @media (min-width: $break-medium) {
+            font-size: 12px;
+          }
+        }
+
+        @media (min-width: $break-medium) {
+          width: 20px;
+          height: 20px;
+        }
+      }
+
+      @media (min-width: $break-large) {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+
+  .name {
+    font-weight: bold;
+  }
+  .date {
+    color: $grey-1;
+  }
+  .info {
+    display: block;
+  }
+  .description {
+    display: flex;
+    margin-top: 10px;
+  }
+}
