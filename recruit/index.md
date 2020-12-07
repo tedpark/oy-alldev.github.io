@@ -6,16 +6,8 @@ title: 채용정보
 
 <div class="loading-animation">
     <div class="recruit">
-        <div class="section contact">
-            <div class="title">올디브는 언제나 채용 중!</div>
-            <div class="content">
-                <ul>
-                    <li>채용문의: vito.kim@cj.net</li>
-                </ul>
-            </div>
-        </div>
         <div class="section want">
-            <div class="title">올디브는 이런 분을 모시고 싶어요.</div>
+            <div class="title">올디브는 이런 분을 모시고 싶어요</div>
              <div class="content">
                 <ul>
                     <li>스크럼과 코드 리뷰에 거부감이 없으신 분</li>
@@ -24,6 +16,64 @@ title: 채용정보
                     <li>부드러운 대화와 적극적인 토론이 즐거우신 분</li>
                     <li>연차 보다는 가능성을 많이 품고 계시는 분</li>
                 </ul>
+            </div>
+        </div>
+        <div class="section position">
+            <div class="title">올디브는 언제나 채용중!</div>
+            <div class="content">
+                {% assign positions = site.data.recruit-position | reverse  %}
+                {% if positions.size > 0 %}
+                <div class="catalogue">
+                    {% for position in positions %}
+                    <div class="catalogue-item">
+                        <div class="catalogue-title">
+                            <div class="content-wrap">
+                                <div class="name">{{position.name}}</div>
+                                <div class="description">{{position.title}}</div>
+                            </div>
+                            <div class="icon"><div></div></div>
+                        </div>
+                        <div class="catalogue-body">
+                            <div class="item overview">
+                                <div class="title">💻 하시게 될 업무</div>
+                                <ul class="overview">
+                                    {% for overview in position.overview %}
+                                    {% if overview.main != null %}
+                                    <li>{{overview.main}}</li>
+                                    {% for overview in position.overview %}
+                                    <li class="sub">{{overview.sub}}</li>
+                                    {% endfor %}
+                                    {% else %}
+                                    <li>{{overview}}</li>
+                                    {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="item requirements">
+                                <div class="title">🙋 아래 기준에 맞는 분을 찾습니다</div>
+                                <ul class="requirement">
+                                    {% for requirement in position.requirement %}
+                                    <li>{{requirement}}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="item useful">
+                                <div class="title">💪 이런 분이면 더욱 좋습니다</div>
+                                <ul class="useful">
+                                    {% for useful in position.useful %}
+                                    <li>{{useful}}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div class="footer">
+                                <div class="blank"></div>
+                                <a href="mailto:vito.kim@cj.net" class="button">지원하기</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
         </div>
         <div class="section process">
@@ -105,3 +155,13 @@ title: 채용정보
         </div>
     </div>
 </div>
+
+<script>
+    $('.catalogue-title').click(function() {
+        if ($(this).parent().hasClass('visible')) {
+            $(this).parent().removeClass('visible');
+        } else {
+            $(this).parent().addClass('visible');
+        }
+    });
+</script>
