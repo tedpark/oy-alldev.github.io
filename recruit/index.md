@@ -26,7 +26,7 @@ title: 채용정보
                 <div class="catalogue">
                     {% for position in positions %}
                     <div class="catalogue-item">
-                        <div class="catalogue-title">
+                        <div class="catalogue-title transition">
                             <div class="content-wrap">
                                 <div class="name">{{position.name}}</div>
                                 <div class="description">{{position.title}}</div>
@@ -67,7 +67,7 @@ title: 채용정보
                             </div>
                             <div class="footer">
                                 <div class="blank"></div>
-                                <a href="mailto:vito.kim@cj.net" class="button">지원하기</a>
+                                <a href="mailto:vito.kim@cj.net" class="button transition">지원하기</a>
                             </div>
                         </div>
                     </div>
