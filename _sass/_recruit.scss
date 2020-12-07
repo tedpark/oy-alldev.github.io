@@ -17,24 +17,6 @@
       padding: 0 10px
     }
   }
-  
-  .contact .content {
-    display: flex;
-    
-    ul {
-      padding: 0 25px;
-
-      @media (max-width: $break-small) {
-        padding: 0;
-      }
-
-      li {
-        font-size: 17px;
-        list-style-type: '💻';
-        padding: 2px 10px
-      }
-    }
-  }
 
   .want .content {
     display: flex;
@@ -50,6 +32,123 @@
         font-size: 17px;
         list-style-type: '✓';
         padding: 2px 10px
+      }
+    }
+  }
+
+  .position .content {
+    .catalogue {
+      margin-bottom: 20px;
+
+      .catalogue-item {
+        border-color: $grey-2;
+
+        &.visible {
+          .icon div {
+            transform: scaleY(-1);
+          }
+          .catalogue-body {
+            display: inherit;
+          }
+        }
+
+        .catalogue-title {
+          padding: 20px 10px;
+          position: relative;
+          cursor: pointer;
+          display: flex;
+
+          &:hover {
+            opacity: 0.6;
+          }
+
+          .content-wrap {
+            flex: auto;
+
+            .name {
+              color: $grey-1;
+              font-size: 16px;
+            }
+
+            .description {
+              font-size: 19px;
+              font-weight: 600;
+            }
+          }
+
+          .icon {
+            margin: auto 0;
+            padding: 0 20px;
+
+            div {
+              background-size: 100% !important;
+              margin: -4px -4px -4px 20px;
+              display: inline-block;
+              width: 20px;
+              height: 20px;
+              background: $arrow-down no-repeat;
+            }
+          }
+        }
+
+        .catalogue-body {
+          display: none;
+          margin: 0 10px;
+          padding: 10px 5px 30px 5px;
+          font-size: 17px;
+
+          .item {
+            padding-bottom: 25px;
+
+            .title {
+              font-size: 16px;
+              color: $grey-0;
+              margin: 5px 0;
+            }
+
+            ul {
+              padding: 0 30px;
+              list-style-type: disc;
+
+              li.sub {
+                margin-left: 25px;
+                list-style-type: circle;
+              }
+            }
+          }
+
+          .footer {
+            display: flex;
+
+            .blank {
+              flex: auto;
+            }
+
+            .button {
+              cursor: pointer;
+              font-size: 16px;
+              padding: 15px 25px;
+              background-color: $primary;
+              color: white;
+              display: inline-block;
+
+              &:after {
+                display: inline-block;
+                content: "";
+                width: 21px;
+                height: 10px;
+                margin-left: 20px;
+                -webkit-transition: margin-right .1s linear;
+                transition: margin-right .1s linear;
+                background-image: $arrow-right;
+              }
+
+              &:hover {
+                font-weight: bold;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -252,7 +351,7 @@
       .card {
         width: 420px;
         margin-left: 90px;
-        padding: 0 0 90px 0;
+        padding: 0 0 15px 0;
 
         @media (max-width: $break-large) {
           width: 400px;
@@ -315,7 +414,7 @@
         }
 
         li {
-          margin-bottom: 10px;
+          margin-bottom: 5px;
 
           @media (max-width: $break-medium) {
             margin-bottom: 3px;
