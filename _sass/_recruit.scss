@@ -68,17 +68,24 @@
             .name {
               color: $grey-1;
               font-size: 16px;
+
+              @media (max-width: $break-small) {
+                font-size: 15px;
+              }
             }
 
             .description {
               font-size: 19px;
               font-weight: 600;
+
+              @media (max-width: $break-small) {
+                font-size: 17px;
+              }
             }
           }
 
           .icon {
             margin: auto 0;
-            padding: 0 20px;
 
             div {
               background-size: 100% !important;
@@ -97,6 +104,10 @@
           padding: 10px 5px 30px 5px;
           font-size: 17px;
 
+          @media (max-width: $break-small) {
+            margin: 0;
+          }
+
           .item {
             padding-bottom: 25px;
 
@@ -108,7 +119,18 @@
 
             ul {
               padding: 0 30px;
-              list-style-type: disc;
+
+              @media (max-width: $break-small) {
+                padding: 0 20px;
+              }
+
+              li {
+                list-style-type: disc;
+
+                @media (max-width: $break-small) {
+                  font-size: 16px;
+                }
+              }
 
               li.sub {
                 margin-left: 25px;
@@ -145,6 +167,10 @@
 
               &:hover {
                 font-weight: bold;
+              }
+
+              @media (max-width: $break-small) {
+                padding: 10px 20px;
               }
             }
           }
@@ -317,8 +343,9 @@
 
       .description {
         display: none;
+
         @media (max-width: $break-small) {
-          display: inherit;
+          display: flex;
           font-size: 16px;
           margin: auto 0 auto 20px;
         }
@@ -407,7 +434,6 @@
 
       ul {
         padding: 10px 0 0 30px;
-        list-style-type: '- ';
 
         @media (max-width: $break-medium) {
           padding-left: 0;
@@ -415,6 +441,7 @@
 
         li {
           margin-bottom: 5px;
+          list-style-type: '- ';
 
           @media (max-width: $break-medium) {
             margin-bottom: 3px;

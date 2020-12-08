@@ -19,7 +19,7 @@ title: 채용정보
             </div>
         </div>
         <div class="section position">
-            <div class="title">올디브는 언제나 채용중!</div>
+            <div class="title">올디브는 언제나 채용 중!</div>
             <div class="content">
                 {% assign positions = site.data.recruit-position | reverse  %}
                 {% if positions.size > 0 %}
