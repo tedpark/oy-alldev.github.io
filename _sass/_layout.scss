@@ -1,62 +1,66 @@
-main, footer > .footer_wrap, .nav-container {
-  margin: 0 auto;
-  width: 80%;
+main,
+footer > .footer_wrap,
+.nav-container {
+	margin: 0 auto;
+	display: flex;
+	width: 80%;
 
-  @media (min-width: $break-large) {
-    max-width: 1000px;
-  }
-  @media (max-width: $break-large) {
-    width: 90%;
-  }
-  @media (max-width: $break-medium) {
-    width: 88%;
-  }
-  @media (max-width: $break-small) {
-    width: 90%;
-  }
+	@media (min-width: $break-large) {
+		max-width: 1000px;
+	}
+	@media (max-width: $break-large) {
+		width: 90%;
+	}
+	@media (max-width: $break-medium) {
+		width: 88%;
+	}
+	@media (max-width: $break-small) {
+		width: 90%;
+	}
 }
 
 main {
-  padding-bottom: 50px;
+	overflow: hidden;
+	padding-bottom: 50px;
 
-  @media (min-width: $break-large) {
-    padding: 30px 15px 50px 15px;
-  }
+	@media (min-width: $break-large) {
+		padding: 30px 15px 50px 15px;
+	}
 
-  @media (min-width: $break-small) {
-    padding: 20px 15px 50px 15px;
-  }
+	@media (min-width: $break-small) {
+		padding: 20px 15px 50px 15px;
+	}
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 footer {
-  font-family: $source;
-  padding: 15px 0;
-  color: $light-gray;
+	font-family: $source;
+	padding: 15px 0;
+	color: $light-gray;
 
-  .footer_wrap {
-    font-style: normal;
-    position: relative;
+	.footer_wrap {
+		font-style: normal;
+		position: relative;
 
-    .copyright {
-      text-align: center;
-      font-size: 16px;
+		.copyright {
+			text-align: center;
+			font-size: 16px;
 
-      @media (max-width: $break-small) {
-        float: none;
-        position: static;
-        margin-top: 6px;
-        font-size: 12px;
-      }
-    }
-  }
+			@media (max-width: $break-small) {
+				float: none;
+				position: static;
+				margin-top: 6px;
+				font-size: 12px;
+			}
+		}
+	}
 
-  @media (min-width: $break-small) {
-    padding: 30px 0;
-  }
+	@media (min-width: $break-small) {
+		padding: 30px 0;
+	}
 }
