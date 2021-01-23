@@ -4,11 +4,11 @@ type: tech
 date: 2021-01-05 21:32
 category: ReactNative
 title: ReactNative와 함께하는 서비스 개발부터 배포까지
-subtitle: ReactNative로 개발하고 AppCenter로 배포하는 인마이백 서비스 개발기
+subtitle: 올디브는 왜 인마이백 앱을 ReactNative로 개발했을까?
 writer: 834588
 post-header: true
 header-img: img/about.png
-hash-tag: 블로그 웹 프론트
+hash-tag: 앱 ReactNative
 ---
 
 올-하! 💚
@@ -29,7 +29,7 @@ ReactNative의 존재 이유이자 최강 장점인 크로스플랫폼 동시 �
 그렇다면 다른 크로스플랫폼인 Flutter, Xamarin, Cordova 등이 아니라 왜 하필 ReactNative로 선정하게 되었는지 궁금할 수도 있는데요, 이미 올디브에서는 React를 사용한 서비스 경험들이 있습니다. React를 다를 줄 아는 팀원들이 많았기 때문에 러닝커브를 반 이상 줄여서 큰 진입장벽 없이 ReactNative를 도입할 수 있었습니다.
 
 #### HIP ✨
-아직도 몇년째 버전 1로 올라오지 못했지만, 그럼에도 불구하고 꾸준히 핫한 언어입니다. '우리도 ReactNative 한번 써보자!' 하는 마음이 맞는 개발자들끼리 모여 개발을 시작하게 되었습니다.
+아직도 몇년째 버전 1로 올라오지 못했지만, 그럼에도 불구하고 꾸준히 핫한 플랫폼입니다. '우리도 ReactNative 한번 써보자!' 하는 마음이 맞는 개발자들끼리 모여 개발을 시작하게 되었습니다.
 
 ## How to develop?
 #### Typescript
@@ -109,7 +109,7 @@ export default Hello;
 ```
 
 #### Redux
-전역으로 관리해줄 필요가 있는 데이터는 Redux를 사용하여 구성습니다. 여러가지가 있지만 제가 사용했던 부분은, 상세 화면에서 '좋아요' 상태값 변경 후 목록화면으로 되돌아갈 때 API 재호출을 통해 리스트를 전체적으로 갱신하지 않아도, 업데이트 된 항목의 '좋아요' 상태만 갱신해 줄 수 있도록 하는데에 적용하였습니다.
+전역으로 관리해줄 필요가 있는 데이터는 Redux를 사용하여 구성했습니다. 여러가지가 있지만 제가 사용했던 부분은, 상세 화면에서 '좋아요' 상태값 변경 후 목록화면으로 되돌아갈 때 API 재호출을 통해 리스트를 전체적으로 갱신하지 않아도, 업데이트 된 항목의 '좋아요' 상태만 갱신해 줄 수 있도록 하는데에 적용하였습니다.
 
 #### State와 Effect
 Redux 오용을 최소화하고자 각 화면별 State를 권장사용하였습니다. 데이터가 바뀌면 View가 갱신되는 flow를 따라갑니다.
