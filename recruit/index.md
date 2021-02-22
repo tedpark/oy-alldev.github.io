@@ -22,7 +22,7 @@ title: 채용정보
             <div class="title">올디브는 언제나 채용 중!</div>
             <div class="content">
                 {% assign positions = site.data.recruit-position | reverse  %}
-                {% if positions.size > 0 %}
+                {% if positions.length > 0 %}
                 <div class="catalogue">
                     {% for position in positions %}
                     <div class="catalogue-item">
@@ -73,6 +73,12 @@ title: 채용정보
                     </div>
                     {% endfor %}
                 </div>
+                {% else %}
+                    <div class="recruit-draft-message">
+                        <h1>
+                            &#x1F64B; Coming Soon!
+                        </h1>
+                    </div>
                 {% endif %}
             </div>
         </div>
