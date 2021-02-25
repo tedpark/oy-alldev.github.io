@@ -1,0 +1,48 @@
+<script>
+    function filterByTagName(tagName) {
+        $('.hidden').removeClass('hidden');
+        $('.catalogue-item').each((index, elem) => {
+            if (!elem.hasAttribute(`data-${tagName}`)) {
+                $(elem).addClass('hidden');
+            }
+        });
+        $(`.tag`).removeClass('selected');
+        $(`.tag[data-tag=${tagName}]`).addClass('selected');
+    }
+
+    function updateQueryString(tagName) {
+        const path = `${location.protocol}//${location.host}${location.pathname}?tag=${tagName}`;
+        window.history.replaceState({ path }, '', path);
+    }
+
+    $(document).ready(function() {
+        let currentTag = "";
+
+        let $tags = $(".tag");
+        const tags = [];
+
+        for(let v of $tags){
+            const repTagText = $(v).text();
+
+            if(tags.indexOf(repTagText) < 0) { //중복 tag 제외
+                tags.push(repTagText)
+                $("#tag-list")[0].innerHTML += `<span class="tag" data-tag="${repTagText}""> ${repTagText} </span>`
+            }
+        }
+
+        const queryTag = window.location.search.substring(5);
+
+        if (queryTag) {
+            currentTag = queryTag;
+            filterByTagName(currentTag)
+        }
+
+        $(`[data-tag]`).click((e) => {
+            currentTag = e.target.dataset.tag;
+            filterByTagName(currentTag);
+            updateQueryString(currentTag);
+        })
+    });
+</script>
+
+<div id="tag-list" class="tag-list"></div>
