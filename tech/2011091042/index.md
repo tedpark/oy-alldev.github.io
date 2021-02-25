@@ -8,7 +8,7 @@ subtitle: Github Pages + Jekyll 을 사용하여 쉽고 빠르게 팀 블로그 
 writer: 834588
 post-header: true
 header-img: img/about.jpeg
-hash-tag: 블로그 웹 프론트
+hash-tag: [Blog, Web, FrontEnd]
 ---
 
 올-하! 💚

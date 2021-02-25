@@ -8,7 +8,7 @@ subtitle: 밑바닥부터 쌓아올리는 앱 개발파트 창세기 1장
 writer: 834588
 post-header: true
 header-img: img/about.jpg
-hash-tag: 앱
+hash-tag: [App]
 ---
 
 
