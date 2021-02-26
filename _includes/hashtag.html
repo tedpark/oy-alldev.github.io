@@ -15,33 +15,52 @@
         window.history.replaceState({ path }, '', path);
     }
 
-    $(document).ready(function() {
-        let currentTag = "";
+    function sortTag(a,b){
+        a = $(a).attr("data-tag");
+        b = $(b).attr("data-tag");
+        if(a > b) {
+            return 1;
+        } else if(a < b) {
+            return -1;
+        } else {
+            return 0;
+        }
+    };
 
+    function makeTagList(){
         let $tags = $(".tag");
         const tags = [];
-
         for(let v of $tags){
             const repTagText = $(v).text();
-
-            if(tags.indexOf(repTagText) < 0) { //중복 tag 제외
-                tags.push(repTagText)
+            if(tags.indexOf(repTagText) < 0) {
+                tags.push(repTagText);
                 $("#tag-list")[0].innerHTML += `<span class="tag" data-tag="${repTagText}""> ${repTagText} </span>`
             }
         }
+        $('#tag-list span').sort(sortTag).appendTo('#tag-list');
+    }
 
+    function linkTag(currentTag){
         const queryTag = window.location.search.substring(5);
-
         if (queryTag) {
             currentTag = queryTag;
-            filterByTagName(currentTag)
+            filterByTagName(currentTag);
         }
+    }
 
+    function tagFilter(){
+        let currentTag = "";
+        makeTagList();
+        linkTag(currentTag);
         $(`[data-tag]`).click((e) => {
             currentTag = e.target.dataset.tag;
             filterByTagName(currentTag);
             updateQueryString(currentTag);
         })
+    }
+
+    $(document).ready(function() {
+        tagFilter();
     });
 </script>
 
