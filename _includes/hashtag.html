@@ -2,6 +2,7 @@
     function filterByTagName(tagName) {
         $('.hidden').removeClass('hidden');
         $('.catalogue-item').each((index, elem) => {
+            console.log(elem.hasAttribute(`data-${tagName}`))
             if (!elem.hasAttribute(`data-${tagName}`)) {
                 $(elem).addClass('hidden');
             }
@@ -31,29 +32,38 @@
         let $tags = $(".tag");
         const tags = [];
         for(let v of $tags){
-            const repTagText = $(v).text();
+            const repTagText = $(v).text().replace(/\s/gi, "");
             if(tags.indexOf(repTagText) < 0) {
                 tags.push(repTagText);
-                $("#tag-list")[0].innerHTML += `<span class="tag" data-tag="${repTagText}""> ${repTagText} </span>`
+                $("#tag-list")[0].innerHTML += `<span class="tag" data-tag="${repTagText}"> ${repTagText} </span>`
             }
         }
         $('#tag-list span').sort(sortTag).appendTo('#tag-list');
     }
 
-    function linkTag(currentTag){
+    function getAllTagList() {
+        const $tags = Array.prototype.slice.call($('#tag-list span'))
+        const result = [];
+        for(let v of $tags) {
+            const repTagText = $(v).text().replace(/\s/gi, "");
+            result.push(repTagText)
+        }
+        return result;
+    }
+
+    function linkTag(){
         const queryTag = window.location.search.substring(5);
-        if (queryTag) {
-            currentTag = queryTag;
-            filterByTagName(currentTag);
+        const tags = getAllTagList();
+        if (queryTag && tags.includes(queryTag)) {
+            filterByTagName(queryTag);
         }
     }
 
     function tagFilter(){
-        let currentTag = "";
         makeTagList();
-        linkTag(currentTag);
+        linkTag();
         $(`[data-tag]`).click((e) => {
-            currentTag = e.target.dataset.tag;
+            const currentTag = e.target.dataset.tag;
             filterByTagName(currentTag);
             updateQueryString(currentTag);
         })
