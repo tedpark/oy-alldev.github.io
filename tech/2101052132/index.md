@@ -8,7 +8,7 @@ subtitle: 올디브는 왜 인마이백 앱을 ReactNative로 개발했을까?
 writer: 834588
 post-header: true
 header-img: img/about.png
-hash-tag: 앱 ReactNative
+hash-tag: [App, ReactNative]
 ---
 
 올-하! 💚

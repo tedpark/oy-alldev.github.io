@@ -35,8 +35,14 @@ layout: main
             현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
         </div>
     {% endif %}
-    
+
     {{ content }}
+
+    {% if page.hash-tag %}
+    <div class="post-tags">
+        {% include post-hashtag.html %}
+    </div>
+    {% endif %}
 
     {% include post-footer.html %}
 </div>
