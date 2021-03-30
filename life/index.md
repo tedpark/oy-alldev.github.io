@@ -27,6 +27,13 @@ title: 소소한 이야기
 </div>
 </div>
 
+<div class="modal">
+    <div class="img-modal">
+        <span class="close">&times;</span>
+        <img src="" class="img-modal-content"/>
+    </div>
+</div>
+
 <script>
     $(document).ready(function () {
         $('.info .date').each(function () {
@@ -37,6 +44,14 @@ title: 소소한 이야기
             $(this).text(timeForToday(dateObject));
             $(this).parent().prop('title', dateString);
         });
+        
+        $('.media > img').on('click', function (e){
+            $('.img-modal-content').replaceWith(function () {
+                return '<img src="' + $(e.target).attr('src') + '" class="img-modal-content"/>'
+            });
+            openModal();
+        });
+        $('.close').on('click', closeModal);
     });
 
     function timeForToday(timeValue) {
@@ -59,5 +74,19 @@ title: 소소한 이야기
             return `${betweenTimeMonth}개월전`;
         }
         return `${Math.floor(betweenTimeMonth / 12)}년전`;
+    }
+    function openModal(){
+        $('body').addClass('stop-scroll');
+        $('.modal').addClass('open', 'fade-in');
+        $('.img-modal').addClass('open','fade-in');
+    }
+    
+    function closeModal(){
+        $('body').removeClass('stop-scroll');
+        $('.img-modal-content').replaceWith(function () {
+            return '<img src="" class="img-modal-content"/>'
+        });
+        $('.modal').removeClass('open', 'fade-in');
+        $('.img-modal').removeClass('open', 'fade-in');
     }
 </script>
