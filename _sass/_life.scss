@@ -236,65 +236,81 @@
   height:100%;
   top:0;
   left:0;
-  background:rgba(0,0,0,0.6);
+  background:rgba(0,0,0,0.7);
   z-index: 3;
 
   &.open{
     display: block;
   }
+}
 
-  .img-modal{
-    display:none;
-    position:fixed;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    max-width: 60%;
-    min-height: 30%;
+.img-modal{
+  display:none;
+  position:fixed;
+  z-index: 5;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 35%;
 
-    &.open{
-      display: block;
-    }
-
-    .img-modal-content{
-      margin: 0;
-      width: 550px;
-      height: auto;
-    }
-
-    .close{
-      position:absolute;
-      width:30px;
-      height:30px;
-      text-align:center;
-      line-height: 30px;
-      color: #ffffff;
-      font-size:40px;
-      right:3px;
-      top:3px;
-      cursor: pointer;
-    }
+  @media (max-width: $break-large) {
+    width: 40%;
   }
 
-  .fade-in{
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 0.5s;
+  @media (max-width: $break-medium) {
+    width: 50%;
+  }
 
-    @keyframes fadeInOpacity {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
+  @media (max-width: $break-small) {
+    width: 80%;
+  }
+
+  &.open{
+    display: block;
+  }
+
+  .img-modal-content{
+    display: block;
+    margin: auto;
+    object-fit: contain;
+  }
+
+  .close{
+    position:absolute;
+    width:30px;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+    color: #ffffff;
+    font-size:40px;
+    right:3px;
+    top:3px;
+    cursor: pointer;
+  }
+}
+
+.fade-in{
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
 }
 
 .stop-scroll{
-    overflow: hidden;
-    margin-right: 16.5px;
+  overflow: hidden;
+  margin-right: 16.5px;
+
+  @media (max-width: $break-small) {
+    margin-right: 0;
   }
+}

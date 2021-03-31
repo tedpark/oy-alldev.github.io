@@ -27,12 +27,12 @@ title: 소소한 이야기
 </div>
 </div>
 
-<div class="modal">
-    <div class="img-modal">
-        <span class="close">&times;</span>
-        <img src="" class="img-modal-content"/>
-    </div>
+<div class="modal"></div>
+<div class="img-modal">
+    <span class="close">&times;</span>
+    <img src="" class="img-modal-content"/>
 </div>
+
 
 <script>
     $(document).ready(function () {
@@ -51,7 +51,7 @@ title: 소소한 이야기
             });
             openModal();
         });
-        $('.close').on('click', closeModal);
+        $('.modal, .close').on('click', closeModal);
     });
 
     function timeForToday(timeValue) {
