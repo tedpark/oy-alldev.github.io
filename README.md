@@ -52,7 +52,7 @@ $ cd oy-all.github.io
 # 패키지 설치
 $ bundle install
 # 블로그 서버 실행
-$ jekyll serve
+$ jekyll serve 안되면 $bundel exec jekyll serve
 ```
 위 과정에서 오류가 없었다면, 브라우저를 열어 [http://127.0.0.1:4000/](http://127.0.0.1:4000/)로 접속 시 로컬에서 블로그가 실행되는 것을 볼 수 있습니다.
 
