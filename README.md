@@ -48,7 +48,7 @@ jekyll 4.1.1 // jekyll 뒤의 버전은 다를 수 있습니다.
 터미널에서 프로젝트 경로로 이동한 뒤 하기 명령어들을 실행하여 로컬에 블로그를 띄워줍니다.
 ```shell
 # 프로젝트 경로로 이동
-$ cd oy-all.github.io
+$ cd oy-alldev.github.io
 # 패키지 설치
 $ bundle install
 # 블로그 서버 실행
