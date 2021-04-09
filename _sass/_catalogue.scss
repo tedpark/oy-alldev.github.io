@@ -10,10 +10,6 @@
 
   &-item.list {
     padding: 36px 0;
-
-/*    &:first-child {
-      padding-top: 0;
-    }*/
   }
 
   &-item.card {
@@ -155,7 +151,23 @@ table.catalogue {
   opacity: .6;
 }
 
-.catalogue-img {
-  border-radius: 3px;
-  //    box-shadow: 6px 0 40px 8px rgba(0,0,0,.05);
+.img-wrap{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .catalogue-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(1);
+    -webkit-transition: all 0.45s ease-in-out;
+
+    &:hover{
+      -webkit-transform: scale(1.15);
+      -webkit-transition: all 0.45s ease-in-out;
+    }
+  }
 }
