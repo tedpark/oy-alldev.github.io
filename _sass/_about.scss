@@ -43,7 +43,7 @@
     background-color: $grey-3;
     display: table;
 
-    .profile, .emoji {
+    .emoji {
       position: absolute;
     }
 
@@ -54,6 +54,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      position: initial;
     }
 
     .emoji {
