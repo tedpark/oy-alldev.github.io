@@ -1,5 +1,4 @@
-
-.recruit-banner {
+.main-banner, .recruit-banner, .about-banner {
   left: 0;
   right: 0;
   height: 400px;
@@ -12,7 +11,88 @@
     bottom: 0;
     height: 200px;
   }
+}
 
+.main-banner{
+  .content {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    img {
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @media (max-width: $break-medium) {
+        background: rgba(255,255,255,0.3);
+      }
+      @media (max-width: $break-small) {
+        background: rgba(255,255,255,0.5);
+      }
+    }
+
+    .text-wrapper {
+      position: absolute;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: fit-content;
+      padding: 0 20px;
+
+      .intro {
+        font-size: 19px;
+
+        @media (max-width: $break-medium) {
+          font-size: 15px;
+        }
+        @media (max-width: $break-small) {
+          font-size: 11px;
+        }
+
+        &.index0{
+          font-size: 25px;
+          font-weight: bold;
+
+          @media (max-width: $break-medium) {
+            font-size: 18px;
+          }
+          @media (max-width: $break-small) {
+            font-size: 13px;
+          }
+        }
+
+        &.index1{
+          font-size: 30px;
+          font-weight: bold;
+
+          @media (max-width: $break-medium) {
+            font-size: 22px;
+          }
+          @media (max-width: $break-small) {
+            font-size: 17px;
+          }
+        }
+
+        a{
+          color: #A4D233;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.recruit-banner {
   .content {
     overflow: hidden;
     position: relative;
@@ -49,7 +129,7 @@
       text-align: center;
       transform: translate(-50%, -50%);
       left: 50%;
-      top: 55%;
+      top: 50%;
       width: fit-content;
       padding: 0 20px;
 
@@ -82,6 +162,77 @@
 
         &:hover {
           font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.about-banner {
+  .content {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    img {
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @media (max-width: $break-medium) {
+        background: rgba(255,255,255,0.3);
+      }
+      @media (max-width: $break-small) {
+        background: rgba(255,255,255,0.5);
+      }
+    }
+
+    .text-wrapper {
+      position: absolute;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: fit-content;
+      padding: 0 20px;
+
+      .intro {
+        font-weight: bold;
+
+        span{
+          color: #A4D233;
+        }
+
+        &.index0{
+          font-size: 35px;
+          font-weight: bold;
+
+          @media (max-width: $break-medium) {
+            font-size: 27px;
+          }
+          @media (max-width: $break-small) {
+            font-size: 20px;
+          }
+        }
+
+        &.index1{
+          font-size: 25px;
+          font-weight: bold;
+
+          @media (max-width: $break-medium) {
+            font-size: 18px;
+          }
+          @media (max-width: $break-small) {
+            font-size: 15px;
+          }
         }
       }
     }

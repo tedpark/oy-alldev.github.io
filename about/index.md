@@ -6,9 +6,6 @@ title: 개발팀 소개
 
 <div class="loading-animation">
     <div class="about">
-        우리는 올리브영 디벨로퍼즈, 올디브입니다!<br/>
-        올리브영의 모든 것을 개발한다는 뜻인 'All dev'의 의미를 담고 있어요.<br/>
-
         <div class="title">개발 문화</div>
         <div class="content">
             <div class="subtitle">우리는 다음과 같은 개발문화를 공유하고 있습니다.</div>
@@ -25,7 +22,6 @@ title: 개발팀 소개
                 <li>실패 보다 머무름을 두려워 합니다.</li>
             </ul>
         </div>
-    
         <div class="title">개발 환경</div>
         <div class="content">
             <div class="subtitle">우리는 다음과 같은 환경에서 개발하고 있습니다.</div>
@@ -37,7 +33,6 @@ title: 개발팀 소개
                 <li>문서는 위키를 사용해 작성합니다.</li>
             </ul>
         </div>
-
         <div class="title">개발자 소개</div>
         <div class="content">
             <ul>

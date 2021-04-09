@@ -8,6 +8,18 @@
 
 {% include nav.html %}
 
+{% if page.home == true %}
+{% include main-banner.html %}
+{% endif %}
+
+{% if page.url == '/about/' %}
+{% include about-banner.html %}
+{% endif %}
+
+{% if page.url == '/recruit/' %}
+{% include recruit-banner.html %}
+{% endif %}
+
 {% if page.post-header == true %}
 {% include post-header.html %}
 {% endif %}
@@ -18,10 +30,6 @@
 <main>
   {{ content }}
 </main>
-
-{% if page.home == true %}
-{% include recruit-banner.html %}
-{% endif %}
 
 {% include footer.html %}
 
