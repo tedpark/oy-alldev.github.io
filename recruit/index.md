@@ -21,8 +21,8 @@ title: 채용정보
         <div class="section position">
             <div class="title">올디브는 언제나 채용 중!</div>
             <div class="content">
-                {% assign positions = site.data.recruit-position | reverse  %}
-                {% if positions.length > 0 %}
+                {% assign positions = site.data.recruit-position %}
+                {% if positions.size > -1 %}
                 <div class="catalogue">
                     {% for position in positions %}
                     <div class="catalogue-item">
@@ -67,7 +67,7 @@ title: 채용정보
                             </div>
                             <div class="footer">
                                 <div class="blank"></div>
-                                <a href="mailto:vito.kim@cj.net" class="button transition">지원하기</a>
+                                <a href="http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212" class="button transition">지원하기</a>
                             </div>
                         </div>
                     </div>
