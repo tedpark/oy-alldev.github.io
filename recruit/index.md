@@ -67,7 +67,7 @@ title: 채용정보
                             </div>
                             <div class="footer">
                                 <div class="blank"></div>
-                                <a href="http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212" class="button transition">지원하기</a>
+                                <a href="http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212" class="button transition" target='_blank'>지원하기</a>
                             </div>
                         </div>
                     </div>
