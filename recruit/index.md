@@ -1,6 +1,7 @@
 ---
 layout: main
 main: true
+recruit: true
 title: 채용정보
 ---
 
