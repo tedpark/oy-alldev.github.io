@@ -81,6 +81,7 @@
 							font-weight: 600;
 
 							@media (max-width: $break-small) {
+								width: calc(100% - 130px);
 								font-size: 17px;
 							}
 						}
