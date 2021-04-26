@@ -223,7 +223,8 @@
 			.circle {
 				background-color: #eaeaea;
 				border-radius: 50%;
-				display: inline-flex;
+				// IE 이슈로 인한 주석
+				//display: inline-flex;
 				justify-content: center;
 				height: 0;
 				width: 20%;
