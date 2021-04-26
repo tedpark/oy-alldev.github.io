@@ -8,7 +8,7 @@ subtitle: 그런데 이제 우당탕탕 신입들의 개발 프로젝트를 곁�
 writer: 834840
 post-header: true
 header-img: img/title.png
-hash-tag: [Blog, WebApp, React, Spring Boot, JavaScript]
+hash-tag: [Blog, WebApp, React, SpringBoot, JavaScript]
 ---
 > 여러분 안녕하세요! 의지수입니다 👋
 >
