@@ -81,7 +81,6 @@
 							font-weight: 600;
 
 							@media (max-width: $break-small) {
-								width: calc(100% - 130px);
 								font-size: 17px;
 							}
 						}
@@ -370,6 +369,7 @@
 				display: none;
 
 				@media (max-width: $break-small) {
+					width: calc(100% - 130px);
 					display: flex;
 					align-items: center;
 					font-size: 16px;
