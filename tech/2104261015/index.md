@@ -2,13 +2,13 @@
 layout: post
 type: tech
 date: 2021-04-26 10:15
-category: Environment
+category: Blog
 title: 2021년 3월 회고 🔮 _ 2탄
 subtitle: 두근두근💗 신입사원 프로젝트 발표날
 writer: 834837
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [Blog, WebApp, React, Spring Boot, JavaScript]
+hash-tag: [Blog, WebApp, React, SpringBoot, JavaScript]
 ---
 
 > 올-하! 💚 안녕하세요. 여러분! 올리브영 서비스개발팀 신입사원 홍시홍입니다.  
