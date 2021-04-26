@@ -20,7 +20,7 @@ hash-tag: [Blog, WebApp, React, Spring Boot, JavaScript]
 ## 다시 쓰는 리뷰, Rereview ✍🏻
 먼저 저희가 한달동안 열심히 만든 웹 앱 리리뷰를 소개해드리겠습니다.
 
-<div style="display: flex; padding: 3px;">
+<div style="display: contents; padding: 3px;">
     <img src="img/01.jpeg" style="zoom:28%; display: inline;" />
     <img src="img/02.jpeg" style="zoom:28%; display: inline;" />
     <img src="img/03.jpeg" style="zoom:28%; display: inline;" />
