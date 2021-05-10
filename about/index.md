@@ -6,9 +6,9 @@ title: 개발팀 소개
 
 <div class="loading-animation">
     <div class="about">
-        <div class="title">개발 문화</div>
+        <div class="title index">01</div>
         <div class="content">
-            <div class="subtitle">우리는 다음과 같은 개발문화를 공유하고 있습니다.</div>
+            <h1 class="subtitle">개발문화</h1>
             <ul class="culture">
                 <li>모든 코드는 애정어린 리뷰를 거칩니다.</li>
                 <li>직관적이고 명확하거나 재기발랄한 네이밍을 추구합니다.</li>
@@ -22,9 +22,9 @@ title: 개발팀 소개
                 <li>실패 보다 머무름을 두려워 합니다.</li>
             </ul>
         </div>
-        <div class="title">개발 환경</div>
+        <div class="title index">02</div>
         <div class="content">
-            <div class="subtitle">우리는 다음과 같은 환경에서 개발하고 있습니다.</div>
+            <h1 class="subtitle">개발환경</h1>
             <ul class="environment">
                 <li>소스는 내부 GitLab 저장소를 사용해 관리하고 있습니다.</li>
                 <li>타팀과의 업무는 레드마인을 통해 관리/진행합니다.</li>
@@ -36,8 +36,8 @@ title: 개발팀 소개
         <div class="title">개발자 소개</div>
         <div class="content">
             <ul>
-                {% assign members = site.data.members | sort: 'id' | where_exp: 'member', 'member.id != 834559' %}
-                {% assign team = site.data.members | where: 'id', '834559' | concat: members %}
+                {% assign members = site.data.members | sort: 'id' | where_exp: 'member', 'member.id != 834001' %}
+                {% assign team = site.data.members | where: 'id', '834001' | concat: members %}
                 {% for member in team %}
                     <li class="member_card">
                         <div class="thumbnail">

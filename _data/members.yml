@@ -19,17 +19,12 @@
 - id: 831341
   name: 허봇
   emoji: 😜
-  comment: everyday is christmas ~
+  comment: 안녕하세요! 올리브영 인프라/운영을 담당하고 있는 허프라 인프라입니다. everyday is christmas ~
 
 - id: 834560
   name: 칼퇴요정
   emoji: ⌚
   comment: 안녕하세요!! 온라인몰 개발을 맡고 있습니다! 퇴근시간 되면 사라집니다.
-
-- id: 834559
-  name: 곰개발 a.k.a. 사육곰
-  emoji: 🐱‍💻
-  comment: 이것저것 재밌는건 다 개발 합니다.
 
 - id: 834561
   name: 피로그래머
@@ -44,34 +39,44 @@
 - id: 834770
   name: 낭만아키
   emoji: ☕
-  comment: Shall We Dev? 💻🛠🎵
+  comment: Shall We Dev? 💻🛠🎵 온라인몰 개발 및 운영을 담당하고 있습니다.
 
 - id: 834726
   emoji: 🙀
-  name: 하늘 아래 아재와 함께
-  comment: 아재 개그를 사랑하고 냥이 영상을 보며 힐링하는 아재아재바라아재~
+  name: 하재
+  comment: 온라인몰을 개발하는 아재~
 
 - id: 834858
   emoji: 💜
   name: 김밀키
-  comment: BE DIFFERENT, BE UNIQUE, BE YOURSELF, WHATEVER!
+  comment: 제 소개는 올디브 최고 권한자, 어드민으로 하겠습니다. 근데 이제 블로그를 곁들인😎
 
 - id : 834840
   emoji : 💪
   name : 의지수
-  comment : 의지로 개발합니다 :)
+  comment : 의지로 앱개발을 하고있습니다 :)
 
 - id: 834837
   emoji: 😻
   name: 홍시홍
-  comment: 치즈냥이 홍시님의 집사를 맡고있는 병아리 개발자입니다. 삐약삐약 🐣🐥🐤
+  comment: 치즈냥이 홍시님의 집사를 맡고있는 병아리 프론트엔드 개발자입니다. 삐약삐약 🐣🐥🐤
 
 - id: 834838
   emoji: 🎵
   name: 복스뮤직
-  comment: 안녕하세요!! 항상 흥얼흥얼 거립니다.
+  comment: 안녕하세요!! 항상 흥얼흥얼거리는 백엔드 신입 개발자입니다.
 
 - id: 834836
   emoji: 💍
   name: 럭셔Lee
-  comment: 럭셔리한 삶을 지향하는 럭셔Lee입니다. 반갑습니다~~😆
+  comment: 안녕하세요~! 럭셔리한 삶을 지향하는 iOS 신입 개발자입니다.
+
+- id: 834001
+  emoji: 🧞‍♂️
+  name: 지니어스
+  comment: 지니가 여러명이면 지니어스! 안녕하세요. 올디브의 소원수리를 담당하고 있는 지니어스입니다. 🧞‍♂️
+
+- id: 834865
+  emoji: 😍
+  name: 금주의 DBA
+  comment: 올디브에서 DBA를 맡고 있습니다😊

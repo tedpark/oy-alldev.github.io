@@ -1,24 +1,55 @@
 .about {
   .title {
     color: $primary;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     margin: 50px 0 10px 0;
+
+    &.index {
+      font-size: 30px;
+      padding: 0 10px;
+    }
   }
 
   .content {
     padding: 0 10px;
 
     .subtitle {
-      font-weight: 600;
+      //font-weight: 600;
+      //padding-top: 10px;
+      width: 30%;
+      float: left;
+      @media (max-width: $break-small) {
+        width: 100%;
+      }
     }
 
     ul.culture, ul.environment {
-      padding: 10px 30px;
+      padding: 38px 18px;
       list-style-type : disc;
 
+      width: 70%;
+      float: left;
+      border-top: 2px solid #000000;
+      @media (max-width: $break-small) {
+        width: 100%;
+        border-top: none;
+      }
+
       li {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 40px;
+        @media (max-width: $break-small) {
+          margin-bottom: 15px;
+          line-height: 35px;
+        }
+
+        .mobile-only{
+          display: none;
+          @media (max-width: $break-small) {
+            display: block;
+          }
+        }
       }
     }
   }
