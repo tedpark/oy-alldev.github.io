@@ -18,6 +18,7 @@
 .project-header {
 	font-family: $source, $san-serif;
 	color: $grey-0;
+
 	.header-project-title {
 		font-weight: 700;
 		font-size: 38px;
@@ -75,7 +76,6 @@
 			display: flex;
 			align-items: center;
 			margin: auto 0;
-			font-size: 16px;
 		}
 
 		@media (max-width: $break-small) {
@@ -172,7 +172,7 @@
 	h2 {
 		padding: 30px 0 12px 0;
 		font-weight: 700;
-		font-size: 25px;
+		font-size: 23px;
 	}
 
 	h2:first-child {
@@ -181,7 +181,7 @@
 
 	h3 {
 		padding: 20px 0 10px 0;
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: 600;
 	}
 
@@ -231,26 +231,27 @@
 	}
 
 	ul {
+		padding-left: 10px;
+
 		li {
 			list-style: none;
-			padding: 6px 0;
-			margin-left: 20px;
-			line-height: 1.65;
+			padding: 3px 0;
+			margin-left: 10px;
 			position: relative;
 		}
 
 		li:before {
 			content: "";
 			position: absolute;
-			width: 8px;
-			height: 8px;
+			width: 6px;
+			height: 6px;
 			background-color: $grey-5;
 			border-radius: 50%;
-			left: -22px;
-			top: 16px;
+			left: -15px;
+			top: 14px;
 
 			@media (max-width: $break-small) {
-				top: 14px;
+				top: 10px;
 			}
 		}
 
@@ -330,7 +331,7 @@ sup {
 	}
 
 	@media (max-width: $break-small) {
-		font-size: 26px;
+		font-size: 23px;
 	}
 }
 
@@ -346,7 +347,7 @@ sup {
 	}
 
 	@media (max-width: $break-small) {
-		font-size: 18px;
+		font-size: 17px;
 	}
 }
 
@@ -358,7 +359,7 @@ sup {
 	line-height: 1;
 
 	@media (max-width: $break-small) {
-		font-size: 16px;
+		font-size: 15px;
 		padding: 0 0 80px 0;
 	}
 }
@@ -445,25 +446,4 @@ sup {
 
 video {
 	margin-bottom: 16px;
-}
-
-//post hashtag
-.post-tags {
-	margin-top:60px;
-	a {
-		background-image: none;
-	}
-	.tag {
-		color: $primary;
-		margin: 0 2px;
-		padding: 5px;
-		text-decoration: underline;
-		font-size: 17px;
-	}
-	.tag:hover {
-		opacity: 0.5;
-	}
-	.tag-emoji {
-		//font-size: xx-large;
-	}
 }

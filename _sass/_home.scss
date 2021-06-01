@@ -24,9 +24,18 @@
 			font-weight: bold;
 			vertical-align: middle;
 
+			@media (max-width: $break-small) {
+				font-size: 18px;
+			}
+
 			.label-emoji {
-				font-size: 28px;
-				margin-right: 5px;
+				font-size: 25px;
+				margin-right: 3px;
+
+				@media (max-width: $break-small) {
+					font-size: 20px;
+				}
+
 			}
 		}
 
@@ -45,6 +54,10 @@
 					display: block;
 					padding: 20px 10px;
 					border-bottom: 1px solid $grey-2;
+				}
+
+				@media (max-width: $break-small) {
+					padding: 20px 0;
 				}
 
 				&:last-child {
