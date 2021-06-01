@@ -446,21 +446,20 @@ video {
 //post hashtag
 .post-tags {
 	margin-top:60px;
-	a{
+	a {
 		background-image: none;
 	}
 	.tag {
-		color: $white;
-		margin: 0 2px 0 2px;
+		color: $primary;
+		margin: 0 2px;
 		padding: 5px;
-		border-radius: 5px;
-		background-color: rgba(164, 210, 51, 0.8);
+		text-decoration: underline;
+		font-size: 17px;
 	}
 	.tag:hover {
-		color: $white;
-		background-color: rgba(164, 210, 51, 0.4);
+		opacity: 0.5;
 	}
 	.tag-emoji {
-		font-size: xx-large;
+		//font-size: xx-large;
 	}
 }

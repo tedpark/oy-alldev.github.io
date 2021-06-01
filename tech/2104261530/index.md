@@ -8,7 +8,7 @@ subtitle: Google Analytics(GA)를 활용한 웹 로그 분석
 writer: 834836
 post-header: true
 header-img: img/about.png
-hash-tag: [GA, Google Analytics, WebLog]
+hash-tag: [GA, GoogleAnalytics, WebLog]
 ---
 
 
