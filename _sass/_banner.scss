@@ -1,3 +1,23 @@
+.no-wrap {
+  white-space: nowrap;
+}
+
+.overlay {
+  background-size: cover !important;
+}
+
+.main-banner {
+  @media (max-width: $break-small) {
+    height: 250px !important;
+  }
+}
+
+.about-banner {
+  @media (max-width: $break-small) {
+    height: 200px !important;
+  }
+}
+
 .main-banner, .recruit-banner, .about-banner {
   left: 0;
   right: 0;
@@ -9,11 +29,57 @@
 
   @media (max-width: $break-small) {
     bottom: 0;
-    height: 200px;
+    height: 150px;
+  }
+
+  .text-wrapper {
+    .main-title {
+      font-size: 30px;
+      font-weight: bold;
+
+      @media (max-width: $break-medium) {
+        font-size: 22px;
+      }
+      @media (max-width: $break-small) {
+        font-size: 23px;
+        margin-top: 5px;
+      }
+    }
+
+    .sub-title {
+      font-size: 24px;
+      font-weight: bold;
+
+      @media (max-width: $break-medium) {
+        font-size: 18px;
+      }
+      @media (max-width: $break-small) {
+        font-size: 16px;
+      }
+    }
+
+    .description {
+      font-size: 19px;
+
+      @media (max-width: $break-medium) {
+        font-size: 15px;
+      }
+      @media (max-width: $break-small) {
+        font-size: 14px;
+      }
+    }
+
+    .highlight-text {
+      color: $primary;
+    }
   }
 }
 
-.main-banner{
+.main-banner {
+  @media (max-width: $break-small) {
+    margin: 30px 0 80px 0;
+  }
+
   .content {
     overflow: hidden;
     position: relative;
@@ -34,10 +100,10 @@
       left: 0;
       bottom: 0;
       @media (max-width: $break-medium) {
-        background: rgba(255,255,255,0.3);
+        background: rgba(255, 255, 255, 0.3);
       }
       @media (max-width: $break-small) {
-        background: rgba(255,255,255,0.5);
+        background: rgba(255, 255, 255, 0.5);
       }
     }
 
@@ -50,39 +116,7 @@
       width: fit-content;
       padding: 0 20px;
 
-      .txt {
-        font-size: 19px;
-
-        @media (max-width: $break-medium) {
-          font-size: 15px;
-        }
-        @media (max-width: $break-small) {
-          font-size: 11px;
-        }
-      }
-      .title1 {
-        font-size: 25px;
-        font-weight: bold;
-        @media (max-width: $break-medium) {
-          font-size: 18px;
-        }
-        @media (max-width: $break-small) {
-          font-size: 13px;
-        }
-       }
-
-      .title2 {
-        font-size: 30px;
-        font-weight: bold;
-        @media (max-width: $break-medium) {
-          font-size: 22px;
-        }
-        @media (max-width: $break-small) {
-          font-size: 17px;
-        }
-      }
-
-     a {
+      a {
         color: #A4D233;
         font-weight: bold;
       }
@@ -116,10 +150,10 @@
       left: 0;
       bottom: 0;
       @media (max-width: $break-medium) {
-        background: rgba(255,255,255,0.3);
+        background: rgba(255, 255, 255, 0.3);
       }
       @media (max-width: $break-small) {
-        background: rgba(255,255,255,0.5);
+        background: rgba(255, 255, 255, 0.5);
       }
     }
 
@@ -131,40 +165,6 @@
       top: 50%;
       width: fit-content;
       padding: 0 20px;
-
-      .title {
-        font-size: 25px;
-        font-weight: bold;
-        @media (max-width: $break-medium) {
-          font-size: 18px;
-        }
-        @media (max-width: $break-small) {
-          font-size: 15px;
-        }
-      }
-
-      .title2 {
-        font-size: 35px;
-        font-weight: bold;
-        @media (max-width: $break-medium) {
-          font-size: 27px;
-        }
-        @media (max-width: $break-small) {
-          font-size: 20px;
-        }
-      }
-
-      .title2-highlight {
-        color : $primary;
-        font-size: 35px;
-        font-weight: bold;
-        @media (max-width: $break-medium) {
-          font-size: 27px;
-        }
-        @media (max-width: $break-small) {
-          font-size: 20px;
-        }
-      }
 
       .button {
         background-color: $primary;
@@ -211,10 +211,10 @@
       left: 0;
       bottom: 0;
       @media (max-width: $break-medium) {
-        background: rgba(255,255,255,0.3);
+        background: rgba(255, 255, 255, 0.3);
       }
       @media (max-width: $break-small) {
-        background: rgba(255,255,255,0.5);
+        background: rgba(255, 255, 255, 0.5);
       }
     }
 
@@ -226,32 +226,6 @@
       top: 50%;
       width: fit-content;
       padding: 0 20px;
-
-      span{
-        color: #A4D233;
-      }
-
-      .title1 {
-        font-size: 35px;
-        font-weight: bold;
-         @media (max-width: $break-medium) {
-           font-size: 27px;
-         }
-         @media (max-width: $break-small) {
-           font-size: 20px;
-         }
-       }
-
-       .title2 {
-         font-size: 25px;
-         font-weight: bold;
-         @media (max-width: $break-medium) {
-           font-size: 18px;
-         }
-        @media (max-width: $break-small) {
-          font-size: 15px;
-        }
-      }
     }
   }
 }

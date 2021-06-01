@@ -45,7 +45,7 @@ title: 소소한 이야기
             $(this).parent().prop('title', dateString);
         });
         
-        $('.media > img').on('click', function (e){
+        $('.media > .image-wrap').on('click', function (e){
             $('.img-modal-content').replaceWith(function () {
                 return '<img src="' + $(e.target).attr('src') + '" class="img-modal-content"/>'
             });

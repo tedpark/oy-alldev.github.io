@@ -1,25 +1,49 @@
 .about {
+  .section {
+    display: grid;
+  }
+
   .title {
     color: $primary;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    margin: 50px 0 10px 0;
+    margin: 30px 0 10px 0;
+
+    &.list {
+      margin-top: 50px;
+    }
 
     &.index {
       font-size: 30px;
       padding: 0 10px;
+
+      @media (max-width: $break-small) {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+    }
+
+    @media (max-width: $break-small) {
+      font-size: 18px;
     }
   }
 
   .content {
     padding: 0 10px;
+    display: block;
+
+    @media (max-width: $break-small) {
+      display: table-cell;
+    }
 
     .subtitle {
       width: 30%;
       float: left;
+      font-size: 25px;
+
       @media (max-width: $break-small) {
         width: 100%;
-        font-size: 25px;
+        font-size: 17px;
       }
     }
 
@@ -33,16 +57,16 @@
       @media (max-width: $break-small) {
         width: 100%;
         border-top: none;
-        padding: 10px 5px 0px 20px;
+        padding: 15px 0 0 20px;
       }
 
       li {
-        font-size: 17px;
         line-height: 30px;
+
         @media (max-width: $break-small) {
-          margin-bottom: 15px;
+          margin-bottom: 10px;
           line-height: initial;
-          font-size: 16px;
+          font-size: 14px;
         }
 
         .mobile-only{

@@ -21,7 +21,7 @@
       font-weight: 600;
 
       @media (max-width: $break-small) {
-        font-size: 18px;
+        font-size: 17px;
       }
     }
 
@@ -51,7 +51,6 @@
   }
 
   &-info {
-    //display: inline-block;
 
     .catalogue-tag {
       font-family: $source;
@@ -76,18 +75,18 @@
       color: $grey-0;
       display: block;
       font-family: $san-serif;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
       line-height: 1.5;
       letter-spacing: -0.009em;
       position: relative;
 
       @media (max-width: $break-medium) {
-        font-size: 22px;
+        font-size: 20px;
       }
 
       @media (max-width: $break-small) {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
 
@@ -97,7 +96,7 @@
     }
 
     p.catalogue-sub {
-      font-size: 18px;
+      font-size: 17px;
       line-height: 1.75;
       padding-bottom: 4px;
 
@@ -126,12 +125,7 @@
     }
 
     p.catalogue-body {
-      font-size: 16px;
       color: $grey-1;
-
-      @media (max-width: $break-small) {
-        font-size: 14px;
-      }
     }
   }
 
@@ -142,7 +136,7 @@
 
 table.catalogue {
   width: 100%;
-  table-layout:fixed;
+  table-layout: fixed;
 }
 
 .catalogue-item:hover
@@ -151,7 +145,7 @@ table.catalogue {
   opacity: .6;
 }
 
-.img-wrap{
+.img-wrap {
   width: 100%;
   height: 200px;
   margin-bottom: 15px;
@@ -163,11 +157,12 @@ table.catalogue {
     width: 100%;
     height: 100%;
     -webkit-transform: scale(1);
-    -webkit-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: $grey-9;
 
-    &:hover{
+    &:hover {
       -webkit-transform: scale(1.15);
-      -webkit-transition: all 0.45s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
     }
   }
 }
