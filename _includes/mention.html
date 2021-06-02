@@ -16,7 +16,7 @@
     <div class="media">
       {% for file in mention.media %}
       {% assign item = site.static_files | where: 'basename', file.name | first %}
-      <img src="{{ item.path }}">
+      <div class="image-wrap"><img src="{{ item.path }}"></div>
       {% endfor %}
     </div>
     {% endif %}

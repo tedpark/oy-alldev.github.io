@@ -46,16 +46,17 @@ footer {
 	.footer_wrap {
 		font-style: normal;
 		position: relative;
+		display: block;
 
 		.copyright {
 			text-align: center;
-			font-size: 16px;
+			font-size: 14px;
 
 			@media (max-width: $break-small) {
 				float: none;
 				position: static;
 				margin-top: 6px;
-				font-size: 12px;
+				font-size: 11px;
 			}
 		}
 	}
