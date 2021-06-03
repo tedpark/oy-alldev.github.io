@@ -8,7 +8,7 @@ subtitle: Google I/O 2021에서 공개된 Android 12는 어떤 모습일까?
 writer: 834840
 post-header: true
 header-img: img/10.jpg
-hash-tag: [Android, Google I/O 2021, App]
+hash-tag: [Android, Google_IO_2021, App]
 ---
 
 여러분 안녕하세요💚 올리브영 모바일 앱에서 안드로이드 개발을 담당하고 있는 의지수입니다. 오늘은 5월달에 열렸던 Google I/O 2021에서 소개된 안드로이드12에 관한 이야기를 해보려 합니다.
