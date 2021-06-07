@@ -35,6 +35,16 @@ title: 채용정보
                             <div class="icon"><div></div></div>
                         </div>
                         <div class="catalogue-body">
+                            {% if position.position != null %}
+                            <div class="item position">
+                                <div class="title">👤 포지션 소개</div>
+                                <ul class="position">
+                                    {% for position in position.position %}
+                                    <li>{{position}}</li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            {% endif %}
                             <div class="item overview">
                                 <div class="title">💻 하시게 될 업무</div>
                                 <ul class="overview">
@@ -68,7 +78,7 @@ title: 채용정보
                             </div>
                             <div class="footer">
                                 <div class="blank"></div>
-                                <a href="http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212" class="button transition" target='_blank'>지원하기</a>
+                                <a href="{{position.url}}" class="button transition" target='_blank'>지원하기</a>
                             </div>
                         </div>
                     </div>
