@@ -15,6 +15,7 @@
     - 이커머스 플랫폼 관련 실무 경험
     - AWS, GCP 등 DevOps환경 기반 클라우드 인프라 경험
     - TDD/Agile 개발환경에 대한 실무 경험
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] 프론트엔드 개발자"
   title: 올리브영 온라인몰 개발을 함께하실 프론트엔드 개발자를 모십니다!
@@ -33,6 +34,7 @@
     - Typescript, React.js, Node.js를 활용한 프로젝트 경험
     - 대규모 서비스 개발 프로젝트에서 Front-end 성능 최적화 경험
     - 이커머스 또는 패션/뷰티 관련 도메인에서 모바일 서비스 프로젝트 참여 경험
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] DBA"
   title: 올리브영의 데이터베이스를 운영/관리할 DBA를 모십니다!
@@ -51,6 +53,7 @@
     - 스크립트 개발 역량(Shell, python 등) 보유
     - 이커머스 환경에서 대용량 트래픽에 대한 성능개선 경험
     - Redis, MongoDB와 같은 NoSQL 경험 또는 관심
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] 퍼블리셔"
   title: 올리브영의 온라인몰 개발 마크업을 담당하실 퍼블리셔를 모십니다!
@@ -69,6 +72,7 @@
     - React.js/Vue와 같은 Front-end Framework 환경 경험
     - SMACSS, BEM과 같은 방법론을 활용한 CSS 개발 경험
     - 이커머스 또는 패션/뷰티 관련 서비스 개발 경험
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] iOS 앱 개발자"
   title: 올리브영 모바일 앱 개발을 함께하실 iOS 개발자를 모십니다!
@@ -86,6 +90,7 @@
     - UI 테스트 자동화에 대한 경험 및 관심 보유
     - 이커머스 또는 패션/뷰티 관련 도메인에서 모바일 서비스 프로젝트 참여 경험
     - 모바일 앱 서비스 퍼블리싱 및 론칭 경험
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] Android 앱 개발자"
   title: 올리브영 모바일 앱 개발을 함께하실 Android 개발자를 모십니다!
@@ -105,6 +110,7 @@
     - UI 테스트 자동화에 대한 경험 및 관심 보유
     - 이커머스 또는 패션/뷰티 관련 도메인에서 모바일 서비스 프로젝트 참여 경험
     - Android 모바일 앱 서비스 퍼블리싱 및 론칭 경험
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] Technical Project Manager"
   title: 올리브영 서비스개발팀과 함께하실 TPM을 모십니다!
@@ -123,18 +129,19 @@
     - 이커머스 혹은 IT서비스 관련 프로젝트 관리 경험
       다양한 프로젝트 관련 협업 툴 사용 역량
     - 에자일/스크럼 마스터로서 경험
+  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
 
 - name: "[경력] 인프라 엔지니어(DevOps)"
   title: 올리브영 온라인몰 개발을 함께하실 인프라 엔지니어(DevOps)를 모십니다!
   position:
     - 올리브영의 DevOps 엔지니어는 800만명이 넘는 회원을 보유한 올리브영 온라인몰 대용량 트래픽을 받아 처리하고, 고객들에게 최상의 고객 경험을 안정적으로 제공할 수 있도록. 시스템 인프라를 설계 하고 운영, 모니터링하고 성능 향상 및 개선을 하는 작업을 진행합니다.
     - 또한 고객과 파트너사들을 위한 새로운 기능의 출시 및 성공적인 운영을 위해서 운영 배포 및 인프라 아키텍처를 구성하는 역할을 합니다.
-    - 현재 On-promise형태의 인프라를 클라우드 기반의 시스템으로 이관하는 업무도 수행합니다.
+    - 현재 On-premise 형태의 인프라를 클라우드 기반의 시스템으로 이관하는 업무도 수행합니다.
   overview:
     - 지속적인 서비스 성능 개선을 위한 인프라/애플리케이션 모니터링 지표 수집, 정의, 성능 추적 및 개선
     - 시스템 변경(배포, 인프라 등) 상태 모니터링 및 문제해결
     - 서비스 장애대응 및 등급 관리를 통하여 재발 방지 대책 준비
-    - On-promise환경의 인프라 운영 및 클라우드 기반으로 마이그레이션
+    - On-premise 환경의 인프라 운영 및 클라우드 기반으로 마이그레이션
     - 대용량 트래픽 처리를 위한 인프라/아키텍처 설계 및 구축
     - 인프라 비용 분석 및 비용 효율화
   requirement:
@@ -149,4 +156,5 @@
     - 동시 접속량이 많은 서비스를 위한 분산처리 아키텍처에 대한 경험이 많은 분
     - 인프라/서비스 엔지니어링 및 장애상황 극복 경험을 갖고 계신 분
     - Jira, Git, Slack등 협업도구와 CI/CD를 통합하여 배포시스템 구축 경험이 있으신 분
+  url: https://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6317
 
