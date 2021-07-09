@@ -8,7 +8,7 @@
 </div>
 <div class="content_wrap">
   <div class="line"></div>
-  <div class="mention">
+  <div class="mention" upload="{{mention.date}}">
     <div class="message">
       {{ mention.message }}
     </div>
@@ -16,14 +16,16 @@
     <div class="media">
       {% for file in mention.media %}
       {% assign item = site.static_files | where: 'basename', file.name | first %}
-      <div class="image-wrap"><img src="{{ item.path }}"></div>
+      <div class="image-wrap">
+        <img class="img-content" src="{{ item.path }}" onclick="return openModal('{{ item.path }}', '{{ mention.date }}','{{ forloop.index }}')">
+      </div>
       {% endfor %}
     </div>
     {% endif %}
     <div class="info">
       <span class="writer">by {{ writer.name }}</span>
       <span class="split">·</span>
-      <span class="date" title="{{ mention.date }}">{{ mention.date }}</span>
+      <span class="date">{{ mention.date }}</span>
     </div>
   </div>
 </div>
