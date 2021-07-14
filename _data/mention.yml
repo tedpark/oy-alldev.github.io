@@ -62,6 +62,26 @@
         date: 2021-04-30 08:27
         message: ㅠㅜ 결국 집 가서 망치로 깼습니다..
 
+- writer: 834838
+  date: 2021-05-03 15:32
+  message: 올디브 배 캐릭터 그리기 사생대회 개최중입니다 🎨 일할때보다 놀때 더 진지한 저희들.. 🥳
+  media:
+    - type: photo
+      name: 2021050301
+
+- writer: 834588
+  date: 2021-05-12 14:02
+  message: 올디브 S/S시즌 트렌드 모음집입니다 😄 원색 신호등 에디션부터 묘한 시밀러룩들까지 😂😂 이렇게 약속이라도 한것마냥 입고 온다는게 참 웃겨요 🤣
+  media:
+    - type: photo
+      name: 2021051201
+    - type: photo
+      name: 2021051203
+    - type: photo
+      name: 2021051204
+    - type: photo
+      name: 2021051205
+
 - writer: 834840
   date: 2021-05-25 10:00
   message: 개발요정🧚‍♀️님이 13번째 '#올리브영다움' 으로 선정되었습니다! 👏👏 올리브영 공식 인스타그램 @oliveyoung_official 에서 확인해주세요! 🧡
@@ -89,6 +109,12 @@
     - type: photo
       name: 20210614
 
+- writer: 834836
+  date: 2021-06-16 11:18
+  message: 앱개발파트는 데일리 스크럼 진행중! 🗣🗣🗣
+  media:
+    - type: photo
+      name: 2021061601
 
 - writer: 834837
   date: 2021-07-08 15:30
