@@ -208,13 +208,13 @@
 
 	figcaption {
 		text-align: center;
-		font-size: 17px;
+		font-size: 14px;
 		color: $grey-1;
 		line-height: 1.8;
 		margin-bottom: 40px;
 
 		@media (max-width: $break-small) {
-			font-size: 15px;
+			font-size: 13px;
 		}
 	}
 
