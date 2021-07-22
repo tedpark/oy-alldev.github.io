@@ -43,6 +43,15 @@ title: 개발팀 소개
                 <h1 class="subtitle">개발자 소개</h1>
                 <div class="divider"></div>
                 <div class="group">
+                    <div class="group-name">#리더 #대장 #소원수리</div>
+                    <ul class="member">
+                        {% assign members = site.data.members | where: 'group', 'leader' | sort: 'id' %}
+                        {% for member in members %}
+                            {% include about-member.html %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="group">
                     <div class="group-name">#백엔드 #인프라 #웹</div>
                     <ul class="member">
                         {% assign members = site.data.members | where: 'group', 'backend' | sort: 'id' %}
