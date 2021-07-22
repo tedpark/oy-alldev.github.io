@@ -5,6 +5,7 @@
 ## name: 닉네임
 ## emoji: 이모지
 ## comment: 한줄설명
+## group: 소속 [leader | backend | data | frontend | app]
 
 - id: 834588
   name: 개발요정
@@ -111,5 +112,17 @@
 - id : 834986
   emoji : 👀
   name : 실버벨
-  comment : 안녕하세요. 한창 베드민턴에 빠져있는 백엔드 올디브입니다. 
+  comment : 안녕하세요. 한창 배드민턴에 빠져있는 백엔드 올디브입니다.
   group : backend
+
+- id: 834001
+  emoji: 🧞‍♂️
+  name: 지니어스
+  comment: 지니가 여러명이면 지니어스! 올디브의 소원수리를 담당하고 있는 지니어스입니다. 🧞‍♂️
+  group: leader
+
+- id: 834002
+  emoji: 😎️
+  name: 김쾌환
+  comment: Cool한 Technic.. OK. 그것이 바로 CTO니까..😎 올디브의 쾌남 쿨가이 김쾌환입니다.
+  group: leader
