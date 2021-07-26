@@ -30,10 +30,10 @@ title: 개발팀 소개
                 <h1 class="subtitle">개발환경</h1>
                 <ul class="environment">
                     <li>소스는 내부 GitLab 저장소를 사용해 관리하고 있습니다.</li>
-                    <li>타팀과의 업무는 레드마인을 통해 관리/진행합니다.</li>
-                    <li>개발팀 내부에서는 GitLab 이슈를 통해 업무에 대한 작업 내역을 관리합니다.</li>
-                    <li>회사 내 커뮤니케이션은 Slack을 사용합니다.</li>
-                    <li>문서는 위키를 사용해 작성합니다.</li>
+                    <li>PO와 개발자, 디자이너가 독립적인 Squad를 이루어 Agile하게 업무를 진행합니다.</li>
+                    <li>Redmine과 Jira를 사용해 이슈 관리를 합니다.</li>
+                    <li>모든 히스토리와 문서는 Confluence를 통해 기록합니다.</li>
+                    <li>사내 메신저는 팀즈를 사용합니다.</li>
                 </ul>
             </div>
         </div>
