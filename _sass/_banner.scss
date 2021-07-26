@@ -229,3 +229,21 @@
     }
   }
 }
+
+.recruit-challenge-banner {
+  -webkit-transform: scale(1);
+  -webkit-transition: all 0.3s ease-in-out;
+  background-image: url('../recruit/img/recruit_banner_thee.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+
+  &:hover {
+    -webkit-transform: scale(1.05);
+    -webkit-transition: all 0.3s ease-in-out;
+  }
+  @media (max-width: 350px) {
+    height: 120px;
+  }
+}
