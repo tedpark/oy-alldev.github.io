@@ -30,6 +30,7 @@
   emoji: ⌚
   comment: 안녕하세요!! 온라인몰 개발을 맡고 있습니다! 퇴근시간 되면 사라집니다.
   group: backend
+  drop: true
 
 - id: 834561
   name: 피로그래머
@@ -136,5 +137,5 @@
 - id: 834981
   emoji: 💪
   name: 정승정승
-  comment: 살아있다면 움직여, 안그럼 살찐다.. ㅜㅜ
+  comment: 살아있다면 움직여라! (안그럼 살찐다.. ㅜㅜ) 백엔드 엑스포의 꿈돌이 💛
   group: leader
