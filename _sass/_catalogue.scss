@@ -139,8 +139,7 @@ table.catalogue {
   table-layout: fixed;
 }
 
-.catalogue-item:hover
-.catalogue-info {
+.catalogue-item:hover .catalogue-info {
   cursor: pointer;
   opacity: .6;
 }
@@ -159,6 +158,7 @@ table.catalogue {
     -webkit-transform: scale(1);
     -webkit-transition: all 0.3s ease-in-out;
     background-color: $grey-9;
+    margin: 0;
 
     &:hover {
       -webkit-transform: scale(1.15);
