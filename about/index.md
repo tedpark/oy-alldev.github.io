@@ -45,7 +45,7 @@ title: 개발팀 소개
                 <div class="group">
                     <div class="group-name">#리더 #대장 #소원수리</div>
                     <ul class="member">
-                        {% assign members = site.data.members | where: 'group', 'leader' | sort: 'id' %}
+                        {% assign members = site.data.members | where: 'group', 'leader' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
                         {% for member in members %}
                             {% include about-member.html %}
                         {% endfor %}
@@ -54,7 +54,7 @@ title: 개발팀 소개
                 <div class="group">
                     <div class="group-name">#백엔드 #인프라 #웹</div>
                     <ul class="member">
-                        {% assign members = site.data.members | where: 'group', 'backend' | sort: 'id' %}
+                        {% assign members = site.data.members | where: 'group', 'backend' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
                         {% for member in members %}
                             {% include about-member.html %}
                         {% endfor %}
@@ -63,7 +63,7 @@ title: 개발팀 소개
                 <div class="group">
                     <div class="group-name">#데이터 #DBA</div>
                     <ul class="member">
-                        {% assign members = site.data.members | where: 'group', 'data' | sort: 'id' %}
+                        {% assign members = site.data.members | where: 'group', 'data' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
                         {% for member in members %}
                             {% include about-member.html %}
                         {% endfor %}
@@ -72,7 +72,7 @@ title: 개발팀 소개
                 <div class="group">
                     <div class="group-name">#프론트엔드 #웹 #퍼블리셔</div>
                     <ul class="member">
-                        {% assign members = site.data.members | where: 'group', 'frontend' | sort: 'id' %}
+                        {% assign members = site.data.members | where: 'group', 'frontend' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
                         {% for member in members %}
                             {% include about-member.html %}
                         {% endfor %}
@@ -81,7 +81,7 @@ title: 개발팀 소개
                 <div class="group">
                     <div class="group-name">#앱 #Android #iOS</div>
                     <ul class="member">
-                        {% assign members = site.data.members | where: 'group', 'app' | sort: 'id' %}
+                        {% assign members = site.data.members | where: 'group', 'app' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
                         {% for member in members %}
                             {% include about-member.html %}
                         {% endfor %}
