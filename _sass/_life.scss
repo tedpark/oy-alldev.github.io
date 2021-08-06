@@ -184,19 +184,29 @@
           .media {
             margin-top: 10px;
 
-            .image-wrap {
+            .image-wrap, .video-wrap {
               overflow: hidden;
               border-radius: 10px;
               display: inline-table;
               border: 1px solid $grey-2;
             }
 
-            img {
-              background-color: $grey-9;
+            .image-wrap img {
               height: 150px;
+            }
+
+            .video-wrap img {
+              width: 270px;
+              height: 150px;
+            }
+
+            img {
+              height: 150px;
+              background-color: $grey-9;
               -webkit-transform: scale(1);
               -webkit-transition: all 0.3s ease-in-out;
               margin: 0;
+              object-fit: cover;
 
               &:hover {
                 cursor: pointer;

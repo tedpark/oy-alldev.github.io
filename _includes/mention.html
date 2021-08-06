@@ -15,10 +15,20 @@
     {% if mention.media != null %}
     <div class="media">
       {% for file in mention.media %}
-      {% assign item = site.static_files | where: 'basename', file.name | first %}
-      <div class="image-wrap">
-        <img class="img-content" src="{{ item.path }}" onclick="return openModal('{{ item.path }}', '{{ mention.date }}','{{ forloop.index }}')">
-      </div>
+        {% if file.type == 'video' %}
+          <div class="video-wrap">
+            <a href="https://www.youtube.com/watch?v=big4xZFQ7c0" target="_blank">
+              <div>
+                <img class="video-content" src="http://img.youtube.com/vi/{{file.name}}/0.jpg">
+              </div>
+            </a>
+          </div>
+        {% else %}
+          {% assign item = site.static_files | where: 'basename', file.name | first %}
+          <div class="image-wrap">
+            <img class="img-content" src="{{ item.path }}" onclick="return openModal('{{ item.path }}', '{{ mention.date }}','{{ forloop.index }}')">
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
     {% endif %}
