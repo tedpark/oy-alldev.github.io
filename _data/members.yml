@@ -37,6 +37,7 @@
   emoji: 🧟‍
   comment: 늘 피곤한 상태의 개발자입니다. 10년째 묵직함이 있는 개발자를 꿈 꾸고 있습니다.
   group: backend
+  drop: true
 
 - id: 834765
   name: 개발새발자
