@@ -1,4 +1,4 @@
-<head>
+<head lang="ko">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -8,7 +8,7 @@
 
   <!-- Naver Search Engine Tag -->
   <meta name="naver-site-verification" content="55cc2fd19a3823b9a891312ff941dff197dc77be" />
-  
+
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}">
   <meta itemprop="description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site:title }}{% endif %}">
@@ -28,7 +28,7 @@
   <meta name="twitter:title" content="{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site:title }}{% endif %}">
   <meta name="twitter:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{{'/meta/meta_recruit_image.png'}}{% else %}{{ site.url }}{{'/meta/meta_image.png'}}{% endif %}">
-  
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
