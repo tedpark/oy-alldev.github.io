@@ -15,7 +15,7 @@
     - 이커머스 플랫폼 관련 실무 경험
     - AWS, GCP 등 DevOps환경 기반 클라우드 인프라 경험
     - TDD/Agile 개발환경에 대한 실무 경험
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
+  url: https://programmers.co.kr/job_positions/6121
 
 - name: "[경력] 프론트엔드 개발자"
   title: 올리브영 온라인몰 개발을 함께하실 프론트엔드 개발자를 모십니다!
@@ -34,26 +34,7 @@
     - Typescript, React.js, Node.js를 활용한 프로젝트 경험
     - 대규모 서비스 개발 프로젝트에서 Front-end 성능 최적화 경험
     - 이커머스 또는 패션/뷰티 관련 도메인에서 모바일 서비스 프로젝트 참여 경험
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
-
-- name: "[경력] DBA"
-  title: 올리브영의 데이터베이스를 운영/관리할 DBA를 모십니다!
-  overview:
-    - 데이터베이스 엔지니어링 및 운영 업무 수행 (오라클/MySQL)
-    - 데이터 구조화 및 테이블 설계 검토 및 표준화
-    - SQL 최적화, 사전 검수 및 인덱스 설계
-  requirement:
-    - 관련 경력 3년 이상
-    - Oracle, MYSQL 등 RBMS에 대한 이해 및 운영 가능자 (백업/복구, 트러블슈팅 등)
-    - SQL, 인덱스 튜닝에 대한 기본적인 지식 및 경험
-    - 우수한 커뮤니케이션 스킬과 협업 자세 보유
-    - 신속한 문제 파악/분석 및 해결 역량
-  useful:
-    - Cloud(AWS/GCP/Azure 등)환경 내 DBMS 운영 관리 경험
-    - 스크립트 개발 역량(Shell, python 등) 보유
-    - 이커머스 환경에서 대용량 트래픽에 대한 성능개선 경험
-    - Redis, MongoDB와 같은 NoSQL 경험 또는 관심
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
+  url: https://programmers.co.kr/job_positions/6136
 
 - name: "[경력] 퍼블리셔"
   title: 올리브영의 온라인몰 개발 마크업을 담당하실 퍼블리셔를 모십니다!
@@ -72,7 +53,7 @@
     - React.js/Vue와 같은 Front-end Framework 환경 경험
     - SMACSS, BEM과 같은 방법론을 활용한 CSS 개발 경험
     - 이커머스 또는 패션/뷰티 관련 서비스 개발 경험
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
+  url: https://programmers.co.kr/job_positions/6137
 
 - name: "[경력] iOS 앱 개발자"
   title: 올리브영 모바일 앱 개발을 함께하실 iOS 개발자를 모십니다!
@@ -90,7 +71,7 @@
     - UI 테스트 자동화에 대한 경험 및 관심 보유
     - 이커머스 또는 패션/뷰티 관련 도메인에서 모바일 서비스 프로젝트 참여 경험
     - 모바일 앱 서비스 퍼블리싱 및 론칭 경험
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
+  url: https://programmers.co.kr/job_positions/6513
 
 - name: "[경력] Android 앱 개발자"
   title: 올리브영 모바일 앱 개발을 함께하실 Android 개발자를 모십니다!
@@ -110,7 +91,7 @@
     - UI 테스트 자동화에 대한 경험 및 관심 보유
     - 이커머스 또는 패션/뷰티 관련 도메인에서 모바일 서비스 프로젝트 참여 경험
     - Android 모바일 앱 서비스 퍼블리싱 및 론칭 경험
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
+  url: https://programmers.co.kr/job_positions/6512
 
 - name: "[경력] Technical Project Manager"
   title: 올리브영 서비스개발팀과 함께하실 TPM을 모십니다!
@@ -129,7 +110,7 @@
     - 이커머스 혹은 IT서비스 관련 프로젝트 관리 경험
       다양한 프로젝트 관련 협업 툴 사용 역량
     - 에자일/스크럼 마스터로서 경험
-  url: http://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6212
+  url: https://programmers.co.kr/job_positions/6138
 
 - name: "[경력] 인프라 엔지니어(DevOps)"
   title: 올리브영 온라인몰 개발을 함께하실 인프라 엔지니어(DevOps)를 모십니다!
@@ -156,5 +137,5 @@
     - 동시 접속량이 많은 서비스를 위한 분산처리 아키텍처에 대한 경험이 많은 분
     - 인프라/서비스 엔지니어링 및 장애상황 극복 경험을 갖고 계신 분
     - Jira, Git, Slack등 협업도구와 CI/CD를 통합하여 배포시스템 구축 경험이 있으신 분
-  url: https://recruit.cj.net/recruit/ko/recruit/recruit/detail.fo?zz_jo_num=6317
+  url: https://programmers.co.kr/job_positions/6075
 
