@@ -21,10 +21,6 @@ title: 채용정보
         </div>
         <div class="section position">
             <div class="title">올디브는 언제나 채용 중!</div>
-            <a href="https://programmers.co.kr/competitions/1583/2021-cj-oliveyoung-challenge" target="_blank">
-                <div class="section recruit-challenge-banner">
-                </div>
-            </a>
             <div class="content">
                 {% assign positions = site.data.recruit-position %}
                 {% if positions.size > -1 %}
