@@ -70,9 +70,18 @@ title: 개발팀 소개
                     </ul>
                 </div>
                 <div class="group">
-                    <div class="group-name">#프론트엔드 #웹 #퍼블리셔</div>
+                    <div class="group-name">#프론트엔드 #웹</div>
                     <ul class="member">
                         {% assign members = site.data.members | where: 'group', 'frontend' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
+                        {% for member in members %}
+                            {% include about-member.html %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="group">
+                    <div class="group-name">#퍼블리셔</div>
+                    <ul class="member">
+                        {% assign members = site.data.members | where: 'group', 'publisher' | where_exp: 'member', 'member.drop != true' | sort: 'id' %}
                         {% for member in members %}
                             {% include about-member.html %}
                         {% endfor %}
