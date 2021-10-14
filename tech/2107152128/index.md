@@ -17,8 +17,8 @@ hash-tag: [App, Android, CD, Firebase, Fastlane]
 ## 👉 세줄요약부터.
 본론부터 말하는거 좋아하는 성격급한 저같은 분이 계실것같아서, 3줄요약 먼저 준비해봤습니다. ^^
 1. 올리브영앱 자동배포 적용 성공했고 ✨
-2. [Firebase App Distribution](https://firebase.google.com/docs/app-distribution) + [fastlane](https://fastlane.tools/) 조합으로 했다. ♻️
-3. 아직도 수동배포하는 곳이 있다면 핵 쉬우니까 다들 빨리 적용 바람. 🏃‍
+2. [Firebase App Distribution](https://firebase.google.com/docs/app-distribution) + [fastlane](https://fastlane.tools/) 조합으로 했습니다. ♻️
+3. 적용법 핵 쉬우니 아직도 수동배포하는 곳이 있다면 이 글을 꼭 읽어주셨으면 좋겠습니다! 🏃‍
 
 <br/><br/>
 👇👇👇 왜 적용하게 되었는지, 어떻게 적용했는지 궁금하시다면 고고! 👇👇👇
@@ -173,11 +173,16 @@ workspace의 `./fastlane/Fastfile` 파일을 열어 하기 블록을 추가해�
 올리브영앱은 각 테스터들 그룹을 만들고, 해당 그룹의 정보가 위치한 txt 파일을 바라보도록 설정했습니다.
 릴리즈노트도 이런식으로 작성하면 관리에 더 용이합니다.
 
+위 옵션 중 `task` 값이 일반적으로 사용하는 'assemble'이 아닌 'assembleDevelop'인 점을 추가적으로 설명드리자면, 저희는 'develop'이라는 테스트앱용 flavor를 가지고 있습니다. 
+그리고 사이닝과 난독화등의 처리를 위해 'release' build type으로 앱을 빌드합니다!
+따라서 올리브영 테스트앱을 배포하기위해는 'assembleDebug' `task`를 수행하여 'develop' flavor를 바라본 뒤, 'release' `build_type`으로 앱을 빌드하여 배포합니다.
+해당 부분은 각 프로젝트 상황에 맞게 설정하시면 됩니다!
+
 # 🚀 배포 시작
 ## 실행
 이제 번거로운 빌드-업로드-배포-확인요청 4단계를, 단 한줄만으로 완료할 수 있습니다!
 ```shell
-$ fastlane distribution
+$ fastlane distribute
 
 # 만약 gradle permission dined 오류가 발생한다면 하기 명령어로 권한 부여 후 재시도 해줍니다.
 ~/workspace$ chmod +x gradlew 
