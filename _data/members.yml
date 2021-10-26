@@ -178,6 +178,12 @@
   comment: 정의의 이름으로 1PX의 틀어짐도 용서하지 않겠다!
   group: publisher
   
+- id: 835050
+  emoji: 😊
+  name: 라이키
+  comment: 전 다 조아용
+  group: backend
+
 - id: 835057
   emoji: 🦾
   name: 스트롱맨
