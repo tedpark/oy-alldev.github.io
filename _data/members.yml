@@ -177,3 +177,9 @@
   name: 달의요정
   comment: 정의의 이름으로 1PX의 틀어짐도 용서하지 않겠다!
   group: publisher
+  
+- id: 835057
+  emoji: 🦾
+  name: 스트롱맨
+  comment : 1일 1깡
+  group: backend
