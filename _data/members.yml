@@ -177,3 +177,9 @@
   name: 달의요정
   comment: 정의의 이름으로 1PX의 틀어짐도 용서하지 않겠다!
   group: publisher
+
+- id: 835048
+  emoji: 🇲🇻
+  name: 무스타파
+  comment: 몰디브에서 올디브를!!(모히토에서 올디브 한잔 추가!!)
+  group: backend
