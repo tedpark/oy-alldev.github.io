@@ -4,7 +4,7 @@ type: tech
 date: 2021-11-22 09:29
 category: FrontEnd
 title: 웹사이트 최적화 방법 - 이미지 파트
-subtitle: 제발 그만해 나 무거워, 이미지🌃 다 죽어
+subtitle: 이미지 최적화로 웹 성능을 향상시키는 방법
 writer: 834765
 post-header: true
 header-img: img/main.jpg
