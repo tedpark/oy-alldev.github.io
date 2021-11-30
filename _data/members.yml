@@ -207,3 +207,9 @@
   name : 배포킹
   comment : 올디브 배포의 정석
   group : backend 
+
+- id : 835039
+  emoji : 📦
+  name : 골디락스
+  comment : 화성까지 배송하는 그날까지~
+  group : backend
