@@ -293,7 +293,7 @@ picture는 특정 브라우저에서 특정 이미지를 사용할 수 있도록
 <img loading="lazy">
 ```
 
-와 같이 사용하여 태그 자체에서 지원하는 레이지 로딩을 사용하는 방법이 있고
+위와 같이 사용하여 태그 자체에서 지원하는 레이지 로딩을 사용하는 방법이 있고
 
 ```html
 <img src="1px.gif" data-src="book.jpg" onload="loadReal(this)"/>
@@ -301,7 +301,7 @@ picture는 특정 브라우저에서 특정 이미지를 사용할 수 있도록
 
 ```javascript
 function loadReal(img) {
-	if(img.display != "none"){
+	if(img.style.display != "none"){
 		img.onload = null;
 		img.src = img.getAttribute("data-src")
 	}
