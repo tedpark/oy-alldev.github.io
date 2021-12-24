@@ -13,7 +13,6 @@ hash-tag: [Tech Session, Reporting, Gather]
 
 올-하 💚 안녕하세요! 올디브에서 프론트엔드 개발을 맡고 있는 주리랑입니다. 현재 올디브에서는 Tech Session 을 진행하고 있는데요! 제가 운영진으로 참여하여 진행하는
 Friday Tech Sesison에 대해  이야기해보고자 합니다.
-  g
 <br/>
 
 #### 올디브에서 하는 Tech Session은?
