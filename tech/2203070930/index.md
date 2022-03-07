@@ -18,15 +18,9 @@ hash-tag: [deploy, nodejs, SSR, thread]
 
 &nbsp;&nbsp;&nbsp; 기존의 서버로 부터 front end 를 분리 하는 작업을 하고 있습니다.
 
-&nbsp;&nbsp;&nbsp; 이번 포스팅은  Next.js 배포를 어떻게 할 것인가와
+&nbsp;&nbsp;&nbsp; 이번 포스팅은  Next.js 배포를 어떻게 할 것인가와 Next.js 가 SSR 로 사용하는 Node.js 에 대한 설명을 하려고 합니다.
 
-&nbsp;&nbsp;&nbsp; Next.js 가 SSR 로 사용하는 Node.js 에 대한 설명을 하려고 합니다.
-
-&nbsp;&nbsp;&nbsp; 이어서 멀쓰(멀티쓰레드), 멀프(멀티프로세스) 에 대해서도,
-
-&nbsp;&nbsp;&nbsp; 그리고 다른 서버들도 살펴 보려고 합니다.
-
-&nbsp;&nbsp;&nbsp; erlang(=elixir) 같은 거요.
+&nbsp;&nbsp;&nbsp; 이어서 멀쓰(멀티쓰레드), 멀프(멀티프로세스) 에 대해서도, 그리고 다른 서버들도 살펴 보려고 합니다. erlang(=elixir) 같은 거요.
 
 
 <br/>
@@ -140,7 +134,7 @@ hash-tag: [deploy, nodejs, SSR, thread]
 
 [Phoenix Framework](https://www.phoenixframework.org/)
 
-https://github.com/tedpark/elixir_with_mongo_example
+<a src="https://github.com/tedpark/elixir_with_mongo_example">https://github.com/tedpark/elixir_with_mongo_example</a>
 
 <br/>
 
@@ -148,7 +142,7 @@ https://github.com/tedpark/elixir_with_mongo_example
 
 [Lagom - Home (lagomframework.com)](https://www.lagomframework.com/documentation/1.6.x/scala/Home.html)
 
-[Akka: build concurrent, distributed, and resilient message-driven applications for Java and Scala | Akka](https://akka.io/)
+[Akka: build concurrent, distributed, and resilient message-driven applications for Java and Scala Akka](https://akka.io/)
 
 <br/>
 
@@ -162,7 +156,7 @@ https://github.com/tedpark/elixir_with_mongo_example
 
 ⇒ Rust Actor 가 최강인가.
 
-[Actix Web | A powerful, pragmatic, and extremely fast web framework for Rust.](https://actix.rs/)
+[Actix Web A powerful, pragmatic, and extremely fast web framework for Rust.](https://actix.rs/)
 
 <br/>
 
@@ -170,7 +164,7 @@ https://github.com/tedpark/elixir_with_mongo_example
 
 <br/>
 
-저는 Rust Actor(Actix) + MongoDB, Elixir Phoenix https://github.com/tedpark/elixir_with_mongo_example + MongoDB
+저는 Rust Actor(Actix) + MongoDB, Elixir Phoenix <a src="https://github.com/tedpark/elixir_with_mongo_example">https://github.com/tedpark/elixir_with_mongo_example</a> + MongoDB
 
 사용 중이고, A.I. 때문에 Python FastAPI 도 사용중입니다.
 
@@ -186,19 +180,19 @@ https://github.com/tedpark/elixir_with_mongo_example
 
    시간이 없으신 분들은 3강, 4강 정도만 보셔도 큰 도움이 될겁니다.
 
-2. https://github.com/kiyoungkim1/ReadyToUseAI
+2. <a src="https://github.com/kiyoungkim1/ReadyToUseAI">https://github.com/kiyoungkim1/ReadyToUseAI</a>
 
-3. https://www.youtube.com/watch?v=Z201jwWo-xs&t=762s
+3. <a src="https://www.youtube.com/watch?v=Z201jwWo-xs&t=762s">https://www.youtube.com/watch?v=Z201jwWo-xs&t=762s</a>
 
-4. https://www.youtube.com/watch?v=5ivVf-Guqk4&t=1137s
+4. <a src="https://www.youtube.com/watch?v=5ivVf-Guqk4&t=1137s">https://www.youtube.com/watch?v=5ivVf-Guqk4&t=1137s</a>
 
-5. https://www.youtube.com/watch?v=9HDBKS4j64M
+5. <a src="https://www.youtube.com/watch?v=9HDBKS4j64M">https://www.youtube.com/watch?v=9HDBKS4j64M</a>
 
-6. https://www.youtube.com/watch?v=sSy8ufyiuDY
+6. <a src="https://www.youtube.com/watch?v=sSy8ufyiuDY">https://www.youtube.com/watch?v=sSy8ufyiuDY</a>
 
-7. https://github.com/pytorch/fairseq 를 사용했습니다.
+7. <a src="https://github.com/pytorch/fairseq 를 사용했습니다.">https://github.com/pytorch/fairseq 를 사용했습니다.</a>
 
-8. https://woongjun-warehouse.tistory.com/2
+8. <a src="https://woongjun-warehouse.tistory.com/2">https://woongjun-warehouse.tistory.com/2</a>
 
 p.s. 함께 하고 싶은 분들의 문은 blah blah. 일단 좀 도와 주십시오!!
 
