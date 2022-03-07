@@ -6,7 +6,7 @@ category: Friday Tech Session
 title: Next.js 배포를 어떻게 할 것인가
 subtitle: Next.js 가 SSR 로 사용하는 Node.js 에 대한 설명을 하려고 합니다.
 writer: 835127
-post-header: false
+post-header: true
 header-img: img/thumbnail.png
 hash-tag: [deploy, nodejs, SSR, thread]
 ---
